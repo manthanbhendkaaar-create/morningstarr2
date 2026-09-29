@@ -20,18 +20,18 @@ function LinkedInIcon({ size = 14 }: { size?: number }) {
 const FOOTER_LINKS = {
   Company: [
     { label: "About", href: "#founder" },
-    { label: "Case Studies", href: "#case-studies" },
+    { label: "Proof", href: "#case-studies" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "FAQ", href: "#faq" },
   ],
   Services: [
-    { label: "Lead Automation", href: "#gallery" },
-    { label: "CRM Automation", href: "#gallery" },
-    { label: "WhatsApp Automation", href: "#gallery" },
-    { label: "Email Automation", href: "#gallery" },
+    { label: "Client Reporting", href: "#gallery" },
+    { label: "Client Onboarding", href: "#gallery" },
+    { label: "Lead-to-Call", href: "#gallery" },
+    { label: "Engagements", href: "#engagements" },
   ],
   Contact: [
-    { label: "Book Audit", href: CALENDLY_URL, external: true },
+    { label: "Book a Call", href: CALENDLY_URL, external: true },
     { label: SITE.email, href: `mailto:${SITE.email}` },
     { label: "WhatsApp", href: `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}` },
   ],
@@ -48,7 +48,7 @@ export function Footer() {
               <BrandLogo />
             </div>
             <p className="text-text-secondary text-sm leading-relaxed mb-4 max-w-sm">
-              We build AI-powered automation systems that run businesses on autopilot.
+              We design, build and run AI systems for marketing agencies.
             </p>
 
             <div className="space-y-2 mb-6 text-sm">
