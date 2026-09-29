@@ -10,31 +10,31 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MorningstarrAI | AI Automation Agency — Lead Generation & Appointment Booking",
+  title: "MorningstarrAI | AI Automation for Marketing Agencies",
   description: SITE.description,
   keywords: [
-    "AI automation agency",
-    "AI lead generation",
-    "AI appointment booking",
-    "CRM automation",
-    "WhatsApp automation",
-    "business automation",
+    "AI automation for agencies",
+    "marketing agency automation",
+    "client reporting automation",
+    "client onboarding automation",
+    "agency operations",
+    "n8n agency",
     "done-for-you automation",
   ],
   authors: [{ name: SITE.name }],
   openGraph: {
-    title: "MorningstarrAI | Stop Losing Leads to Slow Follow-Up",
+    title: "MorningstarrAI | Take On More Clients Without Hiring",
     description:
-      "Done-for-you AI automation for lead generation, appointment booking, CRM sync, and WhatsApp follow-up. Book a free audit.",
+      "Custom AI systems for marketing agencies: client reporting, onboarding, lead response and delivery ops. Book a strategy call.",
     type: "website",
     locale: "en_US",
     siteName: SITE.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: "MorningstarrAI | AI Automation Agency",
+    title: "MorningstarrAI | AI Automation for Marketing Agencies",
     description:
-      "Stop losing leads to slow follow-up. Automation systems that book appointments and recover revenue 24/7.",
+      "Take on more clients without hiring. Custom AI systems for marketing agencies.",
   },
   robots: {
     index: true,

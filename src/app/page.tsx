@@ -22,8 +22,7 @@ import { DiyVsAutomation } from "@/components/sections/DiyVsAutomation";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { ROICalculator } from "@/components/sections/ROICalculator";
 import { AutomationGallery } from "@/components/sections/AutomationGallery";
-import { SuccessMetrics } from "@/components/sections/SuccessMetrics";
-import { Testimonials } from "@/components/sections/Testimonials";
+import { Engagements } from "@/components/sections/Engagements";
 import { ObjectionHandling } from "@/components/sections/ObjectionHandling";
 import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -53,11 +52,10 @@ export default function Home() {
         <ManualVsAI />
         <DiyVsAutomation />
         <HowItWorks />
+        <Engagements />
         <AIBrainDivider />
         <ROICalculator />
         <AutomationGallery />
-        <SuccessMetrics />
-        <Testimonials />
         <ObjectionHandling />
         <FAQ />
         <FinalCTA />
