@@ -13,8 +13,8 @@ export function FounderSection() {
         <ScrollReveal>
           <SectionHeading
             eyebrow="Leadership"
-            title="Meet The Team Behind Your Automation"
-            subtitle="We exist for one reason: help service businesses stop losing revenue to slow follow-up and manual processes."
+            title="Built By An Agency Owner"
+            subtitle="We run our own agency on the same kind of systems we build for yours."
           />
         </ScrollReveal>
 
@@ -28,19 +28,19 @@ export function FounderSection() {
             stats={[...FOUNDER.stats]}
           >
             <p>
-              MORNINGSTARR AI specializes in done-for-you business automation — AI lead generation,
-              appointment booking, CRM automation, and WhatsApp follow-up for agencies, coaches,
-              consultants, and local service businesses.
+              MorningstarrAI is the automation arm of Asendify, a video and YouTube growth agency.
+              Before we built systems for anyone else, we built them for ourselves: lead sourcing,
+              outbound, reply handling, booking and reporting all run on automations we designed.
             </p>
             <p>
-              Our focus is measurable outcomes: faster response times, more booked appointments,
-              fewer missed leads, and less time spent on repetitive admin. Every system is custom-built
-              around how your business actually operates.
+              We know where agency hours go, because we have lost them too: reports, onboarding,
+              chasing leads and moving data between tools. Every system we build is scoped around how
+              your agency actually delivers, and you own all of it.
             </p>
             <p>
-              <strong className="text-text-primary">Mission:</strong> Help growing businesses capture
-              every opportunity — without hiring more staff or stitching together DIY tools that break
-              when you get busy.
+              <strong className="text-text-primary">Mission:</strong> Help agencies take on more clients
+              and grow margins without adding headcount or stitching together tools that break when
+              you get busy.
             </p>
           </FounderProfile>
         </ScrollReveal>

@@ -93,7 +93,7 @@ function CommandCenterDashboard() {
             <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
             <div className="w-3 h-3 rounded-full bg-green-500/80" />
           </div>
-          <span className="text-xs text-text-muted ml-2">AI Command Center</span>
+          <span className="text-xs text-text-muted ml-2">AI Command Center · example</span>
           <span className="ml-auto flex items-center gap-1.5 text-[10px] text-accent-green">
             <span className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse" />
             Live

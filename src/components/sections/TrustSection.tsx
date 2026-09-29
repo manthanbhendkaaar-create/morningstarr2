@@ -11,26 +11,26 @@ import {
 const TRUST_CARDS = [
   {
     title: "Fast Deployment",
-    description: "Launch most systems within 7–14 days.",
+    description: "Your first system is live within 21 days of kickoff.",
     icon: Rocket,
     color: "#00D4FF",
   },
   {
     title: "Fully Customized",
-    description: "Built around your business processes and workflows.",
+    description: "Built around how your agency already delivers, on the tools you already pay for.",
     icon: Sliders,
     color: "#7B61FF",
   },
   {
     title: "Human + AI",
     description:
-      "Automation handles repetitive work while your team focuses on revenue.",
+      "Systems handle the busywork. Your strategists and account managers keep the judgment calls.",
     icon: Users,
     color: "#00FFB2",
   },
   {
     title: "Continuous Optimization",
-    description: "We monitor and improve performance over time.",
+    description: "On retainer, we monitor, fix and extend your systems every week.",
     icon: TrendingUp,
     color: "#00D4FF",
   },
@@ -44,8 +44,8 @@ export function TrustSection() {
         <ScrollReveal>
           <SectionHeading
             eyebrow="Trust"
-            title="Why Businesses Trust MORNINGSTARR AI"
-            subtitle="We build automation systems designed to generate measurable business outcomes."
+            title="Why Agencies Work With MORNINGSTARR AI"
+            subtitle="Senior-level builds, fixed timelines and systems you fully own."
           />
         </ScrollReveal>
 

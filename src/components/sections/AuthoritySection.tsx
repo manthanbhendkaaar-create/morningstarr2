@@ -48,8 +48,8 @@ export function AuthoritySection() {
         <ScrollReveal>
           <SectionHeading
             eyebrow="Authority"
-            title="Why Businesses Choose MorningstarrAI"
-            subtitle="Done-for-you automation built for revenue outcomes — not experiments."
+            title="What Changes Inside Your Agency"
+            subtitle="Done-for-you systems built for margin and capacity, not experiments."
           />
         </ScrollReveal>
 

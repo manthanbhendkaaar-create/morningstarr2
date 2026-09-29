@@ -9,29 +9,34 @@ import { cn } from "@/lib/utils";
 
 const FAQS = [
   {
-    question: "Will AI replace my team?",
+    question: "Which agencies is this for?",
     answer:
-      "No. AI automation handles repetitive tasks — lead responses, follow-ups, data entry — so your team can focus on high-value work like closing deals and serving clients. Think of it as giving every team member a personal assistant.",
+      "Marketing agencies with a team and a steady client base: performance, social, SEO, PPC, content and creative agencies. If your account managers spend hours on reports, onboarding and moving data between tools, we can take that off them.",
   },
   {
-    question: "Do I need technical knowledge?",
+    question: "How much does it cost?",
     answer:
-      "Not at all. We handle everything — design, build, integration, and training. You get a fully working system with a simple dashboard. If you can use email, you can manage your automations.",
+      "An Automation Sprint starts from £4,500, a full Agency Operating System from £12,000, and our managed partnership from £2,500 per month. Final pricing depends on your stack and is agreed on the strategy call before any work starts.",
   },
   {
-    question: "How long does implementation take?",
+    question: "How long does it take?",
     answer:
-      "Most automation systems are live within 2-4 weeks. Simple lead response automations can be deployed in as little as 5-7 days. We start with quick wins and expand from there.",
+      "Your first system goes live within 21 days of kickoff. If it isn't, we keep building at no extra cost until it is. Larger builds are delivered in stages so you see value early.",
   },
   {
-    question: "What tools do you support?",
+    question: "Will this replace my team?",
     answer:
-      "We integrate with 500+ tools including HubSpot, Salesforce, GoHighLevel, WhatsApp Business, Calendly, Zapier, Make, Slack, Google Workspace, and virtually any platform with an API.",
+      "No. It removes the busywork so your strategists and account managers can handle more clients and do more of the work clients value. Most agencies use the freed-up hours to grow without hiring.",
   },
   {
-    question: "What businesses benefit most?",
+    question: "What tools do you work with?",
     answer:
-      "Any business that receives leads and needs follow-up: agencies, coaches, consultants, real estate, local service businesses, and scaling startups. If you lose leads due to slow response times, automation will transform your results.",
+      "HubSpot, GoHighLevel, ClickUp, Asana, Notion, Slack, Google Workspace, Meta and Google Ads, GA4, Calendly and anything with an API. We build with n8n, Make, Apps Script and custom code, and everything is set up in accounts you own.",
+  },
+  {
+    question: "Do we need to be technical?",
+    answer:
+      "No. We design, build, test and document everything, then walk your team through it. On the managed plan we also monitor and fix it every week.",
   },
 ];
 

@@ -1,15 +1,15 @@
-import { PLATFORM_METRICS, TRUST_CATEGORIES } from "@/lib/constants";
+import { HERO_PILLARS, TRUST_CATEGORIES } from "@/lib/constants";
 
 export function HeroTrustStrip() {
   return (
     <section
       id="hero-trust-strip"
       className="relative z-10 border-y border-white/5 bg-bg-secondary/40"
-      aria-label="Platform trust metrics"
+      aria-label="How we work"
     >
       <div className="container-wide px-6 py-5">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
-          {PLATFORM_METRICS.map((metric) => (
+          {HERO_PILLARS.map((metric) => (
             <div
               key={metric.label}
               className="glass-premium rounded-xl px-4 py-3 text-center"
@@ -20,7 +20,7 @@ export function HeroTrustStrip() {
           ))}
         </div>
         <p className="text-center text-[10px] text-text-muted uppercase tracking-widest">
-          Trusted by{" "}
+          Built for{" "}
           {TRUST_CATEGORIES.slice(0, 5).join(" · ")}
         </p>
       </div>

@@ -10,39 +10,39 @@ import {
 
 const AUTOMATIONS = [
   {
-    title: "Lead Automation",
-    description: "Capture, qualify, and route leads instantly from any channel.",
-    icon: Zap,
-    color: "#00D4FF",
-    metrics: ["47 leads/day", "12s response", "89% qualified"],
-  },
-  {
-    title: "CRM Automation",
-    description: "Auto-update pipelines, tags, and follow-up sequences.",
-    icon: Database,
-    color: "#7B61FF",
-    metrics: ["100% synced", "0 manual entry", "24/7 updates"],
-  },
-  {
-    title: "WhatsApp Automation",
-    description: "Instant replies, qualification flows, and appointment booking.",
-    icon: MessageSquare,
-    color: "#00FFB2",
-    metrics: ["98% open rate", "3x engagement", "Auto-booking"],
-  },
-  {
-    title: "Email Automation",
-    description: "Personalized sequences that nurture leads to conversion.",
+    title: "Client Reporting Autopilot",
+    description: "Pulls ads, analytics and social data, writes the commentary, and sends a branded report on schedule.",
     icon: Mail,
     color: "#00D4FF",
-    metrics: ["42% open rate", "Smart timing", "A/B tested"],
+    metrics: ["Meta / Google / GA4", "AI commentary", "Weekly or monthly"],
   },
   {
-    title: "Appointment Automation",
-    description: "Self-scheduling with reminders and calendar sync.",
-    icon: Calendar,
+    title: "Lead-to-Call Engine",
+    description: "Answers every inbound lead in minutes, qualifies it and books the discovery call.",
+    icon: Zap,
     color: "#7B61FF",
-    metrics: ["No-show -60%", "Auto-reminders", "Calendar sync"],
+    metrics: ["Forms, ads, email", "AI qualification", "Calendar booking"],
+  },
+  {
+    title: "Client Onboarding Autopilot",
+    description: "From signed contract to kickoff: intake, folders, channels, tasks and the first call.",
+    icon: Calendar,
+    color: "#00FFB2",
+    metrics: ["Intake forms", "Drive / Slack / PM tool", "Kickoff booked"],
+  },
+  {
+    title: "Outbound Engine",
+    description: "Finds prospects, writes a personal first line from their real content, and sends from warmed inboxes.",
+    icon: MessageSquare,
+    color: "#00D4FF",
+    metrics: ["Lead sourcing", "AI personalisation", "Reply drafts"],
+  },
+  {
+    title: "Ops & CRM Sync",
+    description: "Keeps your CRM, project tool and sheets in sync so nobody copies data by hand.",
+    icon: Database,
+    color: "#7B61FF",
+    metrics: ["HubSpot / GHL", "ClickUp / Asana", "Daily summaries"],
   },
 ];
 
@@ -53,8 +53,8 @@ export function AutomationGallery() {
         <ScrollReveal>
           <SectionHeading
             eyebrow="Automations"
-            title="Automation Gallery"
-            subtitle="Real automation systems we've built for businesses like yours."
+            title="Agency Systems"
+            subtitle="The systems agencies ask us for most. Each one is scoped to your stack."
           />
         </ScrollReveal>
 

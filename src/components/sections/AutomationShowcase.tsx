@@ -10,24 +10,24 @@ import { cn } from "@/lib/utils";
 
 const TABS = [
   {
-    id: "real-estate",
-    label: "Real Estate",
-    description: "Facebook lead → AI qualification → WhatsApp follow-up → booked showing",
+    id: "reporting",
+    label: "Client Reporting",
+    description: "Ads + analytics data → AI commentary → branded report → sent to the client on schedule",
   },
   {
-    id: "agency",
-    label: "Agency",
-    description: "Form submit → AI scoring → email sequence → discovery call booked",
+    id: "lead-to-call",
+    label: "Lead-to-Call",
+    description: "Form or ad lead → instant reply → AI qualification → discovery call booked → CRM updated",
   },
   {
-    id: "coaching",
-    label: "Coaching",
-    description: "Instagram DM → AI conversation → needs assessment → strategy call",
+    id: "onboarding",
+    label: "Onboarding",
+    description: "Contract signed → intake form → folders, channels and tasks created → kickoff booked",
   },
   {
-    id: "local",
-    label: "Local Business",
-    description: "Google inquiry → instant reply → service qualified → appointment set",
+    id: "content-ops",
+    label: "Content Ops",
+    description: "Brief in → AI first draft → review and approval → scheduled and logged",
   },
 ];
 
@@ -41,9 +41,9 @@ export function AutomationShowcase() {
       <div className="container-wide relative">
         <ScrollReveal>
           <SectionHeading
-            eyebrow="Live Demo"
-            title="Interactive Automation Showcase"
-            subtitle="See how AI automation works across different industries."
+            eyebrow="Example Flows"
+            title="Systems We Build For Agencies"
+            subtitle="Pick a system to see how the work moves without anyone touching it."
           />
         </ScrollReveal>
 

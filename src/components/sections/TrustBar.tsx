@@ -10,7 +10,7 @@ export function TrustBar() {
     <section className="py-12 border-y border-white/5 bg-bg-secondary/30 overflow-hidden">
       <ScrollReveal>
         <p className="text-center text-sm text-text-muted uppercase tracking-widest mb-8">
-          Built For Modern Businesses
+          Built For Marketing Agencies
         </p>
       </ScrollReveal>
 
