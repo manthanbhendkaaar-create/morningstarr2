@@ -4,7 +4,7 @@ export const SITE = {
   description:
     "MorningstarrAI designs, builds and runs custom AI systems for marketing agencies: client reporting, onboarding, lead response and delivery ops. Take on more clients without hiring more people.",
   url: "https://morningstarr.asendify.co",
-  email: "manthanbhendkaar@gmail.com",
+  email: "manthanbhendkaaar@gmail.com",
   whatsapp: "+91 75884 68884",
   linkedin: "https://www.linkedin.com/in/manthan-bhendkar-93b452395/",
   location: "Dubai Downtown",
