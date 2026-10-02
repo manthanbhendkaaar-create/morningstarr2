@@ -16,12 +16,12 @@ const FAQS = [
   {
     question: "How much does it cost?",
     answer:
-      "An Automation Sprint starts from £4,500, a full Agency Operating System from £12,000, and our managed partnership from £2,500 per month. Final pricing depends on your stack and is agreed on the strategy call before any work starts.",
+      "An Automation Sprint is a fixed £4,500 for one process automated end to end. A full Agency Operating System starts from £12,000, and our managed partnership from £2,500 per month. Everything is agreed on the strategy call before any work starts.",
   },
   {
     question: "How long does it take?",
     answer:
-      "Your first system goes live within 21 days of kickoff. If it isn't, we keep building at no extra cost until it is. Larger builds are delivered in stages so you see value early.",
+      "Your first system goes live within 5 days of kickoff. If it isn't, we keep building at no extra cost until it is. Larger builds are delivered in stages so you see value early.",
   },
   {
     question: "Will this replace my team?",
