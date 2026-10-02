@@ -60,7 +60,7 @@ export function Engagements() {
           <div className="max-w-3xl mx-auto mt-10 glass-premium rounded-2xl p-5 flex items-start gap-3">
             <ShieldCheck className="w-6 h-6 text-accent-green shrink-0" />
             <p className="text-sm text-text-secondary">
-              <strong className="text-text-primary">The 21-day promise.</strong> {GUARANTEE}
+              <strong className="text-text-primary">The 5-day promise.</strong> {GUARANTEE}
             </p>
           </div>
           <div className="text-center mt-8">
