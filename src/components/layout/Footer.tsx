@@ -25,8 +25,8 @@ const FOOTER_LINKS = {
     { label: "FAQ", href: "#faq" },
   ],
   Services: [
-    { label: "Client Reporting", href: "#gallery" },
-    { label: "Client Onboarding", href: "#gallery" },
+    { label: "Comment & DM Replies", href: "#gallery" },
+    { label: "Content Repurposing", href: "#gallery" },
     { label: "Lead-to-Call", href: "#gallery" },
     { label: "Engagements", href: "#engagements" },
   ],
