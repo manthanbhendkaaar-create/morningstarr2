@@ -11,7 +11,7 @@ const FAQS = [
   {
     question: "Which agencies is this for?",
     answer:
-      "Marketing agencies with a team and a steady client base: performance, social, SEO, PPC, content and creative agencies. If your account managers spend hours on reports, onboarding and moving data between tools, we can take that off them.",
+      "Marketing agencies with a team and a steady client base: performance, social, SEO, PPC, content and creative agencies. If your team spends hours replying to comments and DMs, chasing leads, repurposing content or moving data between tools, we can take that off them.",
   },
   {
     question: "How much does it cost?",
