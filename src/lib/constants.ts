@@ -123,6 +123,22 @@ export const ENGAGEMENTS = [
     featured: false,
   },
   {
+    name: "AI Outbound Engine",
+    price: "£4,500",
+    cadence: "fixed price",
+    summary: "The cold-email system we run every day across 19 inboxes, set up on yours.",
+    points: [
+      "Daily lead finding into your own sheet",
+      "A personal first line for every lead, written from their website",
+      "2 follow-ups to people who don't reply",
+      "AI answers every reply within minutes, qualifies the lead and sends your booking link; tricky replies come to you",
+      "Deliverability setup: warm-up, sending limits, spam checks",
+      "Daily report: sent, replies, calls booked",
+      "Live in 5 days",
+    ],
+    featured: false,
+  },
+  {
     name: "Agency Operating System",
     price: "from £12,000",
     cadence: "one-off",
