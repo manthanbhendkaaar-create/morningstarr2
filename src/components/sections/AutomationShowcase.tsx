@@ -10,6 +10,16 @@ import { cn } from "@/lib/utils";
 
 const TABS = [
   {
+    id: "replies",
+    label: "Comments & DMs",
+    description: "New comments and DMs → AI drafts in the brand's voice → team approves in one click → reply posted and logged",
+  },
+  {
+    id: "content-repurposing",
+    label: "Content Repurposing",
+    description: "One video or post → AI captions, clips and carousels → reviewed → scheduled on every platform",
+  },
+  {
     id: "reporting",
     label: "Client Reporting",
     description: "Ads + analytics data → AI commentary → branded report → sent to the client on schedule",
