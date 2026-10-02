@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   keywords: [
     "AI automation for agencies",
     "marketing agency automation",
-    "client reporting automation",
+    "social media reply automation",
+    "content repurposing automation",
     "client onboarding automation",
     "agency operations",
     "n8n agency",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MorningstarrAI | Take On More Clients Without Hiring",
     description:
-      "Custom AI systems for marketing agencies: client reporting, onboarding, lead response and delivery ops. Book a strategy call.",
+      "AI systems that take the manual work off marketing agencies: comment and DM replies, lead follow-up, content repurposing and admin. Book a call.",
     type: "website",
     locale: "en_US",
     siteName: SITE.name,
