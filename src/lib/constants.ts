@@ -42,12 +42,32 @@ export const EXPERTISE_TAGS = [
 ] as const;
 
 export const NAV_LINKS = [
-  { label: "Systems", href: "#gallery" },
-  { label: "Proof", href: "#case-studies" },
-  { label: "Engagements", href: "#engagements" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Systems", href: "/#gallery" },
+  { label: "Proof", href: "/#case-studies" },
+  { label: "Engagements", href: "/#engagements" },
+  { label: "Content Engine", href: "/content-engine" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "FAQ", href: "/#faq" },
 ] as const;
+
+/** AI Content Engine: done-for-you faceless YouTube channel in the client's cloned voice (page: /content-engine) */
+export const CONTENT_ENGINE = {
+  price: "£3,000",
+  setup: "£1,500",
+  minimum: "3-month",
+  spots: 3,
+  firstVideos: "7 days",
+  volume: "30 Shorts and 8 long videos a month",
+  includes: [
+    "Your own voice, cloned from a 2-minute sample (with your written consent)",
+    "30 Shorts + 8 long-form videos every month",
+    "Topic research and every script written for your niche and offer",
+    "Editing, B-roll, captions and music built for retention",
+    "Uploaded and scheduled to your YouTube channel",
+    "First videos live within 7 days",
+    "Monthly performance report and strategy call",
+  ],
+} as const;
 
 /** Promises shown under the hero (no invented results) */
 export const HERO_PILLARS = [
