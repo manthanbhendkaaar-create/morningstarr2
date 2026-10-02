@@ -11,7 +11,7 @@ import {
 const TRUST_CARDS = [
   {
     title: "Fast Deployment",
-    description: "Your first system is live within 21 days of kickoff.",
+    description: "Your first system is live within 5 days of kickoff.",
     icon: Rocket,
     color: "#00D4FF",
   },
