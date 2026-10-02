@@ -19,16 +19,17 @@ function LinkedInIcon({ size = 14 }: { size?: number }) {
 
 const FOOTER_LINKS = {
   Company: [
-    { label: "About", href: "#founder" },
-    { label: "Proof", href: "#case-studies" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "FAQ", href: "#faq" },
+    { label: "About", href: "/#founder" },
+    { label: "Proof", href: "/#case-studies" },
+    { label: "How It Works", href: "/#how-it-works" },
+    { label: "FAQ", href: "/#faq" },
   ],
   Services: [
-    { label: "Comment & DM Replies", href: "#gallery" },
-    { label: "Content Repurposing", href: "#gallery" },
-    { label: "Lead-to-Call", href: "#gallery" },
-    { label: "Engagements", href: "#engagements" },
+    { label: "Comment & DM Replies", href: "/#gallery" },
+    { label: "Content Repurposing", href: "/#gallery" },
+    { label: "Lead-to-Call", href: "/#gallery" },
+    { label: "Engagements", href: "/#engagements" },
+    { label: "AI Content Engine", href: "/content-engine" },
   ],
   Contact: [
     { label: "Book a Call", href: CALENDLY_URL, external: true },
