@@ -51,7 +51,7 @@ export const NAV_LINKS = [
 
 /** Promises shown under the hero (no invented results) */
 export const HERO_PILLARS = [
-  { display: "21 days", label: "From kickoff to first system live" },
+  { display: "5 days", label: "From kickoff to first system live" },
   { display: "Your stack", label: "Built on the tools you already use" },
   { display: "You own it", label: "Every workflow, account and login" },
   { display: "Weekly", label: "Monitoring and fixes on retainer" },
@@ -87,16 +87,16 @@ export const TRUST_CATEGORIES = [
   "Growth Agencies",
 ] as const;
 
-/** Premium engagements (prices are "from" — final scope agreed on the call) */
+/** Premium engagements (Sprint is a fixed price; larger builds are "from" — final scope agreed on the call) */
 export const ENGAGEMENTS = [
   {
     name: "Automation Sprint",
-    price: "from £4,500",
-    cadence: "one-off",
+    price: "£4,500",
+    cadence: "fixed price",
     summary: "One production system, scoped around your biggest bottleneck.",
     points: [
       "Workflow audit and system design",
-      "One system built, tested and live in 21 days",
+      "One process automated, tested and live in 5 days",
       "Handover docs and a recorded walkthrough",
       "30 days of fixes included",
     ],
@@ -131,7 +131,7 @@ export const ENGAGEMENTS = [
 ] as const;
 
 export const GUARANTEE =
-  "Your first system goes live within 21 days of kickoff, or we keep building at no extra cost until it does.";
+  "Your first system goes live within 5 days of kickoff, or we keep building at no extra cost until it does.";
 
 export const CTAS = {
   bookAudit: "Book a Strategy Call",
