@@ -10,6 +10,20 @@ import {
 
 const AUTOMATIONS = [
   {
+    title: "Comment & DM Reply Assistant",
+    description: "Pulls new comments and DMs across every brand, drafts replies in each brand's voice, and queues them for one-click approval.",
+    icon: MessageSquare,
+    color: "#00FFB2",
+    metrics: ["Instagram / TikTok / FB", "Brand voice", "Human approval"],
+  },
+  {
+    title: "Content Repurposing Engine",
+    description: "Turns one video, post or blog into captions, short clips, carousels and posts for every platform.",
+    icon: Zap,
+    color: "#7B61FF",
+    metrics: ["One input", "Captions + clips", "Ready to schedule"],
+  },
+  {
     title: "Client Reporting Autopilot",
     description: "Pulls ads, analytics and social data, writes the commentary, and sends a branded report on schedule.",
     icon: Mail,
