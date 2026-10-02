@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import { BookingButton } from "@/components/booking/BookingButton";
 import { BrandLogo } from "@/components/brand/Logo";
 import { NAV_LINKS, CTAS } from "@/lib/constants";
@@ -26,9 +27,9 @@ export function Header() {
       )}
     >
       <div className="container-wide flex items-center justify-between px-6">
-        <a href="#" className="group">
+        <Link href="/" className="group">
           <BrandLogo priority />
-        </a>
+        </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
