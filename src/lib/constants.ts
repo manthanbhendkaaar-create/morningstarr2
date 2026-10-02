@@ -2,7 +2,7 @@ export const SITE = {
   name: "MORNINGSTARR AI",
   tagline: "AI Automation Partner for Marketing Agencies",
   description:
-    "MorningstarrAI designs, builds and runs custom AI systems for marketing agencies: client reporting, onboarding, lead response and delivery ops. Take on more clients without hiring more people.",
+    "MorningstarrAI builds AI systems that take the manual work off marketing agencies: replying to comments and DMs, chasing new leads, turning one piece of content into ten, reporting and admin. Take on more clients without hiring more people.",
   url: "https://morningstarr.asendify.co",
   email: "manthanbhendkaaar@gmail.com",
   whatsapp: "+91 75884 68884",
@@ -33,11 +33,11 @@ export const FOUNDER = {
 } as const;
 
 export const EXPERTISE_TAGS = [
-  "Client Reporting",
+  "Comment & DM Replies",
+  "Content Repurposing",
   "Client Onboarding",
   "Lead-to-Call Systems",
   "Outbound Engines",
-  "AI Agents",
   "n8n · Make · Apps Script",
 ] as const;
 
@@ -62,14 +62,15 @@ export const HERO_COPY = {
   headline: "TAKE ON MORE CLIENTS",
   headlineHighlight: "WITHOUT HIRING",
   subheadline:
-    "MorningstarrAI designs, builds and runs custom AI systems for agencies: client reporting, onboarding, lead response and delivery ops. Your team spends its hours on the work clients actually pay for.",
+    "Tell us the job your team still does by hand every day. We build an AI system that does it for them: replying to comments and DMs, chasing new leads, turning one piece of content into ten. Your team spends its hours on the work clients actually pay for.",
   primaryCta: "Book a Strategy Call",
   secondaryCta: "See Engagements",
   secondaryHref: "#engagements",
 } as const;
 
 export const HERO_BENEFITS = [
-  "Client reports that build and send themselves",
+  "Comments and DMs drafted in each brand's voice",
+  "One piece of content turned into ten",
   "Every inbound lead answered and booked in minutes",
   "Onboarding that runs from signed contract to kickoff",
   "Hours of admin off every account manager",
@@ -105,7 +106,7 @@ export const ENGAGEMENTS = [
     name: "Agency Operating System",
     price: "from £12,000",
     cadence: "one-off",
-    summary: "Reporting, onboarding, lead-to-call and delivery ops, connected.",
+    summary: "Replies, lead-to-call, content and delivery ops, connected.",
     points: [
       "3 to 5 connected systems across the agency",
       "Built on your CRM, PM tool and data sources",
