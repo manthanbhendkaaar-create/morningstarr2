@@ -24,7 +24,7 @@ export function Engagements() {
           />
         </ScrollReveal>
 
-        <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <StaggerContainer className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {ENGAGEMENTS.map((e) => (
             <StaggerItem key={e.name}>
               <GlassCard
