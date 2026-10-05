@@ -16,7 +16,7 @@ const FAQS = [
   {
     question: "How much does it cost?",
     answer:
-      "An Automation Sprint is a fixed £4,500 for one process automated end to end. A full Agency Operating System starts from £12,000, and our managed partnership from £2,500 per month. Everything is agreed on the strategy call before any work starts.",
+      "An Automation Sprint is a fixed £4,500 for one process automated end to end. A full Agency Operating System starts from £12,000, and our managed partnership from £2,500 per month. Everything is agreed on the consultation call before any work starts.",
   },
   {
     question: "How long does it take?",

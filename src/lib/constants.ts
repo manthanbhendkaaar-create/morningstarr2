@@ -83,7 +83,7 @@ export const HERO_COPY = {
   headlineHighlight: "WITHOUT HIRING",
   subheadline:
     "Tell us the job your team still does by hand every day. We build an AI system that does it for them: replying to comments and DMs, chasing new leads, turning one piece of content into ten. Your team spends its hours on the work clients actually pay for.",
-  primaryCta: "Book a Strategy Call",
+  primaryCta: "Book a Consultation Call",
   secondaryCta: "See Engagements",
   secondaryHref: "#engagements",
 } as const;
@@ -170,8 +170,8 @@ export const GUARANTEE =
   "Your first system goes live within 5 days of kickoff, or we keep building at no extra cost until it does.";
 
 export const CTAS = {
-  bookAudit: "Book a Strategy Call",
-  bookAutomationAudit: "Book Your Strategy Call",
+  bookAudit: "Book a Consultation Call",
+  bookAutomationAudit: "Book Your Consultation Call",
   getAutomationPlan: "Get My Automation Plan",
   calculateLostRevenue: "Calculate Lost Revenue",
   seeOpportunityScore: "See My Opportunity Score",

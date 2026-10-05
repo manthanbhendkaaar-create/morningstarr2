@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MorningstarrAI | Take On More Clients Without Hiring",
     description:
-      "AI systems that take the manual work off marketing agencies: comment and DM replies, lead follow-up, content repurposing and admin. Book a call.",
+      "AI systems that take the manual work off marketing agencies: comment and DM replies, lead follow-up, content repurposing and admin. Book a consultation call.",
     type: "website",
     locale: "en_US",
     siteName: SITE.name,

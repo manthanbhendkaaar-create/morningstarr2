@@ -32,7 +32,7 @@ const STEPS = [
   {
     icon: PenLine,
     title: "We plan and script",
-    text: "On a strategy call we lock your niche, topics and the offer the channel should sell. Then we research and write every script.",
+    text: "On a consultation call we lock your niche, topics and the offer the channel should sell. Then we research and write every script.",
   },
   {
     icon: Clapperboard,
@@ -96,7 +96,7 @@ export default function ContentEnginePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <BookingButton size="lg">
-                    Book a Strategy Call
+                    Book a Consultation Call
                     <ArrowRight className="w-4 h-4" />
                   </BookingButton>
                   <span className="text-sm text-text-muted">Limited to {CONTENT_ENGINE.spots} clients</span>
@@ -156,7 +156,7 @@ export default function ContentEnginePage() {
                     ))}
                   </ul>
                   <BookingButton size="lg" className="w-full justify-center">
-                    Book a Strategy Call
+                    Book a Consultation Call
                     <ArrowRight className="w-4 h-4" />
                   </BookingButton>
                 </GlassCard>
@@ -208,7 +208,7 @@ export default function ContentEnginePage() {
                   First videos live within {CONTENT_ENGINE.firstVideos} of your voice sample. {CONTENT_ENGINE.spots} client spots.
                 </p>
                 <BookingButton size="lg">
-                  Book a Strategy Call
+                  Book a Consultation Call
                   <ArrowRight className="w-4 h-4" />
                 </BookingButton>
               </ScrollReveal>

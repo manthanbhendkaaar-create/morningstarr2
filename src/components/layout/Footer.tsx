@@ -23,6 +23,7 @@ const FOOTER_LINKS = {
     { label: "Proof", href: "/#case-studies" },
     { label: "How It Works", href: "/#how-it-works" },
     { label: "FAQ", href: "/#faq" },
+    { label: "Policies", href: "/policies" },
   ],
   Services: [
     { label: "Comment & DM Replies", href: "/#gallery" },
@@ -32,7 +33,7 @@ const FOOTER_LINKS = {
     { label: "AI Content Engine", href: "/content-engine" },
   ],
   Contact: [
-    { label: "Book a Call", href: CALENDLY_URL, external: true },
+    { label: "Book a Consultation Call", href: CALENDLY_URL, external: true },
     { label: SITE.email, href: `mailto:${SITE.email}` },
     { label: "WhatsApp", href: `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}` },
   ],
