@@ -1,0 +1,23 @@
+# MorningstarrAI
+
+> MorningstarrAI builds AI systems that take the manual work off marketing agencies: replying to comments and DMs, chasing new leads, turning one piece of content into ten, reporting and admin, so agencies can take on more clients without hiring more people. Founded by Manthan Bhendkar; owned by Asendify (asendify.co). Tools: n8n, Make, Apps Script.
+
+## Engagements (GBP; a 45% service fee applies on top of every fee)
+- Automation Sprint: £4,500 fixed price. One process automated end to end (workflow audit, system design, live in 5 days, handover docs, 30 days of fixes).
+- AI Outbound Engine: £4,500 fixed price. The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days.
+- Agency Operating System: from £12,000 one-off. 3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes.
+- Managed Automation Partner: from £2,500 per month. Monitoring, fixes, new builds every month, priority WhatsApp support and a monthly review.
+- AI Content Engine: £3,000 per month + £1,500 one-time setup, 3-month minimum, 3 client spots. A done-for-you faceless YouTube channel in the client's own cloned voice: 30 Shorts and 8 long-form videos a month, scripts, editing, uploading and a monthly report; first videos live within 7 days.
+- Guarantee: the first system goes live within 5 days of kickoff, or building continues at no extra cost until it does.
+- Consultation Call: paid; the rate is on the Policies page. Scope and price are agreed on the call before any work starts.
+
+## Pages
+- [Home](https://morningstarr.asendify.co/): AI automation for marketing agencies: systems, proof, engagements, how it works and FAQ.
+- [AI Content Engine](https://morningstarr.asendify.co/content-engine): Done-for-you faceless YouTube channel in the client's cloned voice.
+- [Policies](https://morningstarr.asendify.co/policies): Terms, fees (including the Consultation Call rate) and payment terms.
+
+## Contact
+- Book a Consultation Call: https://calendly.com/manthanbhendkaaar/30min
+- Email: manthanbhendkaaar@gmail.com
+- Founder: Manthan Bhendkar (https://www.linkedin.com/in/manthan-bhendkar-93b452395/)
+- Parent company: [Asendify](https://www.asendify.co/)
