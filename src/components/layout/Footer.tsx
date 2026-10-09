@@ -1,6 +1,6 @@
 import { BookingButton } from "@/components/booking/BookingButton";
 import { BrandLogo } from "@/components/brand/Logo";
-import { SITE, FOUNDER, EXPERTISE_TAGS, CTAS, CALENDLY_URL } from "@/lib/constants";
+import { SITE, FOUNDER, EXPERTISE_TAGS, CTAS } from "@/lib/constants";
 import { Mail, MessageCircle, MapPin } from "lucide-react";
 
 function LinkedInIcon({ size = 14 }: { size?: number }) {
@@ -33,7 +33,7 @@ const FOOTER_LINKS = {
     { label: "AI Content Engine", href: "/content-engine" },
   ],
   Contact: [
-    { label: "Book a Consultation Call", href: CALENDLY_URL, external: true },
+    { label: "Book a Consultation Call", href: "/?book=1" },
     { label: SITE.email, href: `mailto:${SITE.email}` },
     { label: "WhatsApp", href: `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}` },
   ],

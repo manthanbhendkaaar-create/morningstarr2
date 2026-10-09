@@ -1,19 +1,11 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { ArrowRight } from "lucide-react";
 import { BookingButton } from "@/components/booking/BookingButton";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { GlowOrb } from "@/components/effects/GlowOrb";
 import { GradientMesh } from "@/components/effects/BackgroundEffects";
 import { CTAS } from "@/lib/constants";
-
-const CalendlyEmbed = dynamic(
-  () => import("@/components/CalendlyEmbed").then((mod) => mod.CalendlyEmbed),
-  { ssr: false, loading: () => (
-    <div className="w-full h-[700px] glass rounded-2xl animate-pulse" />
-  )}
-);
 
 const POINTS = [
   { title: "30 minutes", label: "We map where your team's hours go" },
@@ -58,11 +50,6 @@ export function FinalCTA() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.3}>
-          <div id="calendly-embed" className="max-w-4xl mx-auto rounded-2xl overflow-hidden">
-            <CalendlyEmbed />
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );

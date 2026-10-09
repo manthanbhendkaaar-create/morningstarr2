@@ -22,7 +22,9 @@ const POLICIES = [
   {
     title: "Consultation Call",
     items: [
-      "Consultation Calls are charged at £2,000 plus the 45% service fee (£900), a total of £2,900.",
+      "Consultation Calls are charged at £2,000 plus the 45% service fee (£900), a total of £2,900, after the call.",
+      "If you miss a booked Consultation Call, cancel it or reschedule it, at any time, the same £2,900 (£2,000 plus the 45% service fee) is charged. Booked calls cannot be rescheduled free of charge.",
+      "Clients in India set up a bank mandate (eNACH) through Razorpay when booking; nothing is charged at booking. The Consultation Call fee is debited from it after the call, in INR at that day's exchange rate, and any package is debited only after the client confirms the amount in writing.",
     ],
   },
 ];
