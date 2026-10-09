@@ -151,12 +151,6 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
     };
   }, [open]);
 
-  const fee = (
-    <p style={{ color: "#4b5563", margin: "0 0 18px", lineHeight: 1.55 }}>
-      Consultation call: £2,000 + 45% service fee (£900) = <b style={{ color: "#111827" }}>£2,900</b>, charged after the call.
-    </p>
-  );
-
   const panel =
     step === "calendar" ? (
       <iframe
@@ -166,8 +160,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
       />
     ) : step === "choose" ? (
       <div style={{ padding: "32px 28px", color: "#111827" }}>
-        <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 8px" }}>Book a Consultation Call</h2>
-        {fee}
+        <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 18px" }}>Book a Consultation Call</h2>
         <p style={{ fontWeight: 600, margin: "0 0 12px" }}>Where is your business based?</p>
         <div style={{ display: "grid", gap: "10px" }}>
           <button type="button" style={primary} onClick={() => { setBookingUrl(CALENDLY_URL); setStep("calendar"); }}>Outside India</button>
@@ -178,10 +171,8 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
       <form onSubmit={startMandate} style={{ padding: "32px 28px", color: "#111827", overflowY: "auto", maxHeight: "90vh" }}>
         <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 8px" }}>Book a Consultation Call</h2>
         <p style={{ color: "#4b5563", margin: "0 0 18px", lineHeight: 1.55 }}>
-          Consultation call: £2,000 + 45% service fee (£900) = <b style={{ color: "#111827" }}>£2,900</b>. For clients in India it is
-          charged <b style={{ color: "#111827" }}>after the call</b>{" "}in ₹ at that day&apos;s exchange rate, through a bank mandate (eNACH) you set up
-          now with Razorpay. <b style={{ color: "#111827" }}>Nothing is charged now.</b> Any package you choose on the call is charged the
-          same way, only after you confirm the amount in writing. You can cancel the mandate any time through your bank.
+          To book, clients in India set up a bank mandate (eNACH) through Razorpay. <b style={{ color: "#111827" }}>Nothing is charged now.</b>{" "}
+          You can cancel the mandate any time through your bank.
         </p>
         <label style={label}>Your name
           <input style={input} required value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" />
@@ -199,9 +190,6 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
         <button type="submit" disabled={step === "working"} style={{ ...primary, opacity: step === "working" ? 0.7 : 1 }}>
           {step === "working" ? "Opening Razorpay…" : "Set up mandate and pick a time"}
         </button>
-        <p style={{ color: "#6b7280", fontSize: "12px", margin: "12px 0 0", lineHeight: 1.5 }}>
-          See our <a href="/policies" style={{ color: "#2563eb" }}>policies</a>.
-        </p>
       </form>
     );
 
