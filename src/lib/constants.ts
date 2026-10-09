@@ -10,7 +10,7 @@ export const SITE = {
   location: "Dubai Downtown",
   calendlyUrl:
     process.env.NEXT_PUBLIC_CALENDLY_URL ||
-    "https://calendly.com/manthanbhendkaaar/30min?utm_source=morningstarr&utm_content=website",
+    "https://cal.com/manthan-bhendkar-5bceko/morningstarr?utm_source=morningstarr&utm_content=website",
 } as const;
 
 /** Single source of truth for all booking CTAs */

@@ -123,7 +123,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
       handler: async (p: { razorpay_payment_id: string }) => {
         const d = await post({ action: "done", order_id: r.order_id, payment_id: p.razorpay_payment_id });
         if (d && d.ok) {
-          setBookingUrl(d.booking_url || CALENDLY_URL);
+          setBookingUrl(CALENDLY_URL);
           setStep("calendar");
         } else {
           setStep("form");
