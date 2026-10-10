@@ -259,7 +259,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
       <form onSubmit={startMandate} style={{ padding: "32px 28px", color: "#111827", overflowY: "auto", maxHeight: "90vh" }}>
         <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 8px" }}>Book a Consultation Call</h2>
         <p style={{ color: "#4b5563", margin: "0 0 18px", lineHeight: 1.55 }}>
-          To book, clients in India set up a bank mandate (eNACH) through Razorpay. <b style={{ color: "#111827" }}>Nothing is charged now.</b>{" "}
+          To book, clients in India set up a bank mandate (eNACH) through Razorpay. <b style={{ color: "#111827" }}>Nothing is charged when you book. Any package is only charged once you&apos;ve agreed to it.</b>{" "}
           You can cancel the mandate any time through your bank.
         </p>
         <label style={label}>Your name
