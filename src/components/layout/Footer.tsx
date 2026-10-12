@@ -23,6 +23,7 @@ const FOOTER_LINKS = {
     { label: "Proof", href: "/#case-studies" },
     { label: "How It Works", href: "/#how-it-works" },
     { label: "FAQ", href: "/#faq" },
+    { label: "Guides", href: "/guides" },
   ],
   Services: [
     { label: "Comment & DM Replies", href: "/#gallery" },

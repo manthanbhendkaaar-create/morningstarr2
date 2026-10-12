@@ -1,19 +1,29 @@
 # MorningstarrAI
 
-> MorningstarrAI builds AI systems that take the manual work off marketing agencies: replying to comments and DMs, chasing new leads, turning one piece of content into ten, reporting and admin, so agencies can take on more clients without hiring more people. Founded by Manthan Bhendkar; owned by Asendify (asendify.co). Tools: n8n, Make, Apps Script.
+> MorningstarrAI builds AI automations for marketing agencies and other businesses: replying to comments and DMs, following up new leads, turning one piece of content into ten, client reporting, onboarding and admin, so agencies can take on more clients without hiring more people. Its Automation Sprint automates one process, live within 5 working days, and can be bought online for £6,525. Founded by Manthan Bhendkar; owned by Asendify (asendify.co). Tools: n8n, Make, Google Apps Script and custom code, set up in accounts the client owns.
+
+## Buy online
+- Automation Sprint: £6,525 at https://playbook.asendify.co/sprint (£4,500 + 45% service fee). One process automated end to end: workflow audit and system design, one process automated, tested and live, handover docs and a recorded walkthrough, 30 days of fixes. Payment first, then a call where the buyer describes the process; the automation goes live within 5 working days after that call. Buyers in India request an invoice.
 
 ## Engagements (GBP; a 45% service fee applies on top of every fee)
-- Automation Sprint: £4,500 fixed price. One process automated end to end (workflow audit, system design, live in 5 days, handover docs, 30 days of fixes).
+- Automation Sprint: £4,500 fixed price (£6,525 including the service fee when bought online, see above).
 - AI Outbound Engine: £4,500 fixed price. The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days.
 - Agency Operating System: from £12,000 one-off. 3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes.
 - Managed Automation Partner: from £2,500 per month. Monitoring, fixes, new builds every month, priority WhatsApp support and a monthly review.
-- AI Content Engine: £3,000 per month + £1,500 one-time setup, 3-month minimum, 3 client spots. A done-for-you faceless YouTube channel in the client's own cloned voice: 30 Shorts and 8 long-form videos a month, scripts, editing, uploading and a monthly report; first videos live within 7 days.
-- Guarantee: the first system goes live within 5 days of kickoff, or building continues at no extra cost until it does.
-- Consultation Call: paid. Scope and price are agreed on the call before any work starts.
+- AI Content Engine: £3,000 per month + £1,500 one-time setup, 3-month minimum, 3 client spots. A done-for-you faceless YouTube channel in the client's own cloned voice (cloned from a 2-minute sample, with written consent): 30 Shorts and 8 long-form videos a month, scripts, editing, uploading and a monthly report; first videos live within 7 days.
+- No invented results: MorningstarrAI does not publish client results it does not have; it runs the same systems on its own agency, Asendify, every day.
 
 ## Pages
 - [Home](https://morningstarr.asendify.co/): AI automation for marketing agencies: systems, proof, engagements, how it works and FAQ.
 - [AI Content Engine](https://morningstarr.asendify.co/content-engine): Done-for-you faceless YouTube channel in the client's cloned voice.
+- [Guides](https://morningstarr.asendify.co/guides): All guides.
+- [AI automation for marketing agencies](https://morningstarr.asendify.co/guides/ai-automation-for-marketing-agencies): What it is, which jobs it takes over and where to start.
+- [How to automate client reporting](https://morningstarr.asendify.co/guides/automate-client-reporting): Step-by-step reporting automation with AI commentary.
+- [How to automate lead follow-up with AI](https://morningstarr.asendify.co/guides/automate-lead-follow-up-with-ai): Instant replies, qualification, booking and hand-off.
+- [What marketing agencies can automate with AI](https://morningstarr.asendify.co/guides/what-can-marketing-agencies-automate): Use cases by department and what to keep human.
+- [AI automation agency cost](https://morningstarr.asendify.co/guides/ai-automation-agency-cost): Prices and what an Automation Sprint includes.
+- [Zapier vs custom AI automation](https://morningstarr.asendify.co/guides/zapier-vs-custom-ai-automation): When each one fits an agency.
+- [AI Content Engine guide](https://morningstarr.asendify.co/guides/ai-content-engine-youtube-in-your-voice): Running a YouTube channel in your own voice.
 
 ## Contact
 - Book a Consultation Call: https://morningstarr.asendify.co/?book=1

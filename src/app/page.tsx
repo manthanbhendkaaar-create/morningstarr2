@@ -26,11 +26,15 @@ import { Engagements } from "@/components/sections/Engagements";
 import { ObjectionHandling } from "@/components/sections/ObjectionHandling";
 import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
+import { SprintCheckout } from "@/components/sections/SprintCheckout";
+import { JsonLd } from "@/components/guides/GuidePage";
+import { HOME_JSON_LD } from "@/lib/structured-data";
 
 export default function Home() {
   return (
     <ExperienceShell>
       <CalendlyBookingProvider>
+      <JsonLd data={HOME_JSON_LD} />
       <Header />
       <StickyBookingCTA />
       <main className="pb-24 relative z-[2]">
@@ -53,6 +57,7 @@ export default function Home() {
         <DiyVsAutomation />
         <HowItWorks />
         <Engagements />
+        <SprintCheckout />
         <AIBrainDivider />
         <ROICalculator />
         <AutomationGallery />
