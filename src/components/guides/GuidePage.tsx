@@ -8,7 +8,7 @@ import { ExperienceShell } from "@/components/experience/ExperienceShell";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SITE, FOUNDER } from "@/lib/constants";
-import { GUIDES, GUIDES_UPDATED, SPRINT_CHECKOUT_URL, getGuide, type Guide, type GuideBlock } from "@/lib/guides";
+import { GUIDES, GUIDES_UPDATED, WAITLIST_DEPOSIT_URL, getGuide, type Guide, type GuideBlock } from "@/lib/guides";
 
 /** Renders plain text with [label](/path) links. */
 function RichText({ text }: { text: string }) {
@@ -119,15 +119,15 @@ export function SprintBuyBox() {
       <p className="text-[10px] font-semibold tracking-widest uppercase text-accent-purple mb-3">Buy online</p>
       <h2 className="text-2xl font-bold mb-2">Automation Sprint: one process, automated</h2>
       <p className="text-sm text-text-secondary mb-4">
-        £6,525 (£4,500 + 45% service fee). Pay first, then a call where you walk us
+        £9,135 (£6,300 + 45% service fee). Pay first, then a call where you walk us
         through the process. It goes live within 5 working days after that call. Buying from India? Request an invoice.
       </p>
       <a
-        href={SPRINT_CHECKOUT_URL}
+        href={WAITLIST_DEPOSIT_URL}
         className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm rounded-xl bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold"
       >
         <ShoppingCart className="w-4 h-4" />
-        Buy the Automation Sprint, £6,525
+        Sprint slots are full: reserve with a £500 refundable deposit
       </a>
     </GlassCard>
   );

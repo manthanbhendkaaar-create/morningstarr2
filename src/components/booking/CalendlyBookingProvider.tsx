@@ -12,6 +12,7 @@ import {
 } from "react";
 import { createPortal } from "react-dom";
 import { CALENDLY_URL } from "@/lib/constants";
+import { FULL_CAPACITY, WAITLIST_DEPOSIT_URL } from "@/lib/guides";
 
 // Booking popup for the consultation call (charged after the call).
 // Step 1: a short form about the business. The answers go to the "strategy" function, which builds a tailored
@@ -62,7 +63,7 @@ export function useCalendlyBooking() {
   return ctx;
 }
 
-type Step = "brief" | "choose" | "form" | "working" | "calendar";
+type Step = "brief" | "choose" | "form" | "working" | "calendar" | "full" | "fullsent";
 
 type RazorpayOptions = Record<string, unknown>;
 type RazorpayInstance = { open: () => void; on: (ev: string, cb: (r: { error?: { description?: string } }) => void) => void };
@@ -124,7 +125,26 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  // 2026-10-13: full client capacity. Booking is replaced by a free waitlist (saved in Supabase, emails Manthan) plus the refundable deposit link.
+  const [wl, setWl] = useState<{ name: string; email: string }>({ name: "", email: "" });
+  const [wlMsg, setWlMsg] = useState("");
+  const [wlBusy, setWlBusy] = useState(false);
+  const joinWaitlist = useCallback(async (e: FormEvent) => {
+    e.preventDefault();
+    if (!wl.name.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(wl.email.trim())) { setWlMsg("Please enter your name and a valid email."); return; }
+    setWlBusy(true); setWlMsg("");
+    try {
+      const r = await fetch("https://pnokotvssodslxozepxe.supabase.co/functions/v1/waitlist", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ plan: "morningstarr", name: wl.name.trim(), email: wl.email.trim(), source: "morningstarr-site" }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok || !j.ok) throw new Error((j && j.error) || "Please try again.");
+      setStep("fullsent");
+    } catch (err) { setWlMsg(err instanceof Error ? err.message : "Please try again."); }
+    setWlBusy(false);
+  }, [wl]);
+
   const openBooking = useCallback(() => {
+    if (FULL_CAPACITY) { setWl({ name: "", email: "" }); setWlMsg(""); setStep("full"); setOpen(true); return; }
     setStep(briefDone ? "choose" : "brief");
     setMsg("");
     setOpen(true);
@@ -210,7 +230,27 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
   }, [open]);
 
   const panel =
-    step === "calendar" ? (
+    step === "full" || step === "fullsent" ? (
+      <div style={{ padding: "32px 28px", color: "#111827", overflowY: "auto", maxHeight: "90vh" }}>
+        <p style={{ fontSize: "11px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#7c3aed", fontWeight: 700, margin: "0 0 8px" }}>Full capacity</p>
+        <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 8px" }}>We&apos;re not taking new clients right now.</h2>
+        <p style={{ color: "#4b5563", margin: "0 0 18px", lineHeight: 1.55 }}>
+          Every build slot is taken. Join the waitlist and we&apos;ll email you, in order, when a slot opens. To be offered a slot first, you can reserve with a <b style={{ color: "#111827" }}>£500 refundable deposit</b>: refunded in full any time until we offer you a slot, and credited to your first invoice when you join.
+        </p>
+        {step === "fullsent" ? (
+          <p style={{ color: "#166534", fontWeight: 600, margin: "0 0 14px" }}>You&apos;re on the list. We&apos;ll email {wl.email} when a slot opens.</p>
+        ) : (
+          <form onSubmit={joinWaitlist} noValidate style={{ display: "grid", gap: "10px", margin: "0 0 14px" }}>
+            <input style={input} placeholder="Your name" value={wl.name} autoComplete="name" onChange={(e) => setWl((w) => ({ ...w, name: e.target.value }))} />
+            <input style={input} type="email" placeholder="Work email" value={wl.email} autoComplete="email" onChange={(e) => setWl((w) => ({ ...w, email: e.target.value }))} />
+            {wlMsg && <p style={{ color: "#b91c1c", fontSize: "14px", margin: 0 }}>{wlMsg}</p>}
+            <button type="submit" disabled={wlBusy} style={{ ...secondary, opacity: wlBusy ? 0.7 : 1 }}>{wlBusy ? "Joining…" : "Join the free waitlist"}</button>
+          </form>
+        )}
+        <a href={WAITLIST_DEPOSIT_URL} style={{ ...primary, display: "block", textAlign: "center", textDecoration: "none" }}>Reserve a slot with a £500 refundable deposit →</a>
+        <p style={{ color: "#6b7280", fontSize: "13px", margin: "12px 0 0", lineHeight: 1.5 }}>Nothing beyond the deposit is ever charged until you agree an amount in writing. Questions: manthanbhendkaaar@gmail.com</p>
+      </div>
+    ) : step === "calendar" ? (
       <iframe
         src={bookingUrl}
         title="Book a Consultation Call"

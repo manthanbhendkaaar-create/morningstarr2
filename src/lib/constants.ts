@@ -111,7 +111,7 @@ export const TRUST_CATEGORIES = [
 export const ENGAGEMENTS = [
   {
     name: "Automation Sprint",
-    price: "£4,500",
+    price: "£6,300",
     cadence: "fixed price",
     summary: "One production system, scoped around your biggest bottleneck.",
     points: [
@@ -124,7 +124,7 @@ export const ENGAGEMENTS = [
   },
   {
     name: "AI Outbound Engine",
-    price: "£4,500",
+    price: "£6,300",
     cadence: "fixed price",
     summary: "The cold-email system we run every day across 19 inboxes, set up on yours.",
     points: [
@@ -140,7 +140,7 @@ export const ENGAGEMENTS = [
   },
   {
     name: "Agency Operating System",
-    price: "from £12,000",
+    price: "from £16,800",
     cadence: "one-off",
     summary: "Replies, lead-to-call, content and delivery ops, connected.",
     points: [
@@ -153,7 +153,7 @@ export const ENGAGEMENTS = [
   },
   {
     name: "Managed Automation Partner",
-    price: "from £2,500",
+    price: "from £3,500",
     cadence: "per month",
     summary: "We run, monitor and extend your systems every month.",
     points: [

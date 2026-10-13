@@ -1,7 +1,7 @@
 import { ShoppingCart, Check } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { SPRINT_CHECKOUT_URL } from "@/lib/guides";
+import { WAITLIST_DEPOSIT_URL } from "@/lib/guides";
 
 /** Buy the Automation Sprint online. Deliberately has no booking button (booking sections carry no prices). */
 export function SprintCheckout() {
@@ -32,15 +32,15 @@ export function SprintCheckout() {
               </div>
               <div className="text-center md:text-left">
                 <p className="mb-1">
-                  <span className="text-4xl font-bold gradient-text">£6,525</span>
+                  <span className="text-4xl font-bold gradient-text">£9,135</span>
                 </p>
-                <p className="text-sm text-text-muted mb-5">£4,500 + 45% service fee</p>
+                <p className="text-sm text-text-muted mb-5">£6,300 + 45% service fee</p>
                 <a
-                  href={SPRINT_CHECKOUT_URL}
+                  href={WAITLIST_DEPOSIT_URL}
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm rounded-xl bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold"
                 >
                   <ShoppingCart className="w-4 h-4" />
-                  Buy the Automation Sprint, £6,525
+                  Sprint slots are full: reserve with a £500 refundable deposit
                 </a>
               </div>
             </div>

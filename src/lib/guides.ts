@@ -8,6 +8,9 @@
 export const GUIDES_UPDATED = "2026-10-12";
 
 export const SPRINT_CHECKOUT_URL = "https://playbook.asendify.co/sprint";
+// 2026-10-13: MorningstarrAI is at full client capacity; every CTA goes to the refundable GBP 500 waitlist deposit.
+export const WAITLIST_DEPOSIT_URL = "https://playbook.asendify.co/msdeposit?utm_source=morningstarr";
+export const FULL_CAPACITY = true;
 
 export type GuideBlock = string | { list: string[] };
 

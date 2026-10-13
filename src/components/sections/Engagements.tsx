@@ -20,7 +20,7 @@ export function Engagements() {
           <SectionHeading
             eyebrow="Engagements"
             title="How We Work Together"
-            subtitle="Fixed scope, fixed timeline, senior builds. Final pricing is agreed on the consultation call once we know your stack."
+            subtitle="We are at full client capacity right now: join the waitlist (free) or reserve a slot with a £500 refundable deposit. Fixed scope, fixed timeline, senior builds; final pricing is agreed in writing before any work starts."
           />
         </ScrollReveal>
 
