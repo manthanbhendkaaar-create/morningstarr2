@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { SITE } from "@/lib/constants";
 import "./globals.css";
 
@@ -52,6 +53,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full scroll-smooth`}>
       <body className="min-h-full flex flex-col bg-bg-primary text-text-primary antialiased">
         {children}
+        <Script src="/blossom.js?v=1" strategy="afterInteractive" />
       </body>
     </html>
   );
