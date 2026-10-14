@@ -108,7 +108,7 @@ export function GlobalNeuralNetwork() {
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
             ctx.lineTo(b.x, b.y);
-            ctx.strokeStyle = `rgba(0, 212, 255, ${alpha})`;
+            ctx.strokeStyle = `rgba(212, 175, 55, ${alpha})`;
             ctx.lineWidth = 0.6;
             ctx.stroke();
 
@@ -121,7 +121,7 @@ export function GlobalNeuralNetwork() {
         const pulse = 0.4 + Math.sin(Date.now() * 0.002 + i) * 0.2;
         ctx.beginPath();
         ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(123, 97, 255, ${pulse})`;
+        ctx.fillStyle = `rgba(179, 143, 29, ${pulse})`;
         ctx.fill();
       });
 
@@ -138,7 +138,7 @@ export function GlobalNeuralNetwork() {
         const py = a.y + (b.y - a.y) * pkt.progress;
         ctx.beginPath();
         ctx.arc(px, py, 2, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(0, 255, 178, 0.7)";
+        ctx.fillStyle = "rgba(242, 210, 122, 0.7)";
         ctx.fill();
       }
 

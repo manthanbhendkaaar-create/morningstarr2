@@ -13,31 +13,31 @@ const AUTHORITY_POINTS = [
     title: "Faster Response Times",
     description: "Leads get answered in seconds — not hours — so hot prospects never go cold.",
     icon: Clock,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
   {
     title: "24/7 Lead Qualification",
     description: "Every inquiry is scored and routed automatically, day or night, weekends included.",
     icon: Shield,
-    color: "#7B61FF",
+    color: "#b38f1d",
   },
   {
     title: "CRM Synchronization",
     description: "Every conversation, tag, and status update flows into your CRM without manual entry.",
     icon: RefreshCw,
-    color: "#00FFB2",
+    color: "#f2d27a",
   },
   {
     title: "Appointment Automation",
     description: "Qualified leads book directly into your calendar with reminders and no-show reduction.",
     icon: Calendar,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
   {
     title: "Human Oversight",
     description: "Automation handles the repetitive work. Your team steps in for high-value conversations.",
     icon: Users,
-    color: "#7B61FF",
+    color: "#b38f1d",
   },
 ];
 

@@ -27,7 +27,7 @@ function FlowColumn({
   variant: "manual" | "ai";
 }) {
   const isManual = variant === "manual";
-  const accentColor = isManual ? "#ef4444" : "#00FFB2";
+  const accentColor = isManual ? "#ef4444" : "#f2d27a";
   const bgClass = isManual ? "from-red-500/10 to-red-500/5" : "from-accent-green/10 to-accent-green/5";
   const borderClass = isManual ? "border-red-500/20" : "border-accent-green/20";
 

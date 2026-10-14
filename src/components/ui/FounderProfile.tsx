@@ -71,7 +71,7 @@ function FounderImageFrame({
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-accent-blue via-accent-purple to-accent-green opacity-40 group-hover:opacity-70 transition-opacity duration-500 pointer-events-none" />
-        <div className="relative glass-premium rounded-2xl overflow-hidden aspect-[4/5] shadow-[0_8px_32px_rgba(0,0,0,0.4)] group-hover:shadow-[0_12px_48px_rgba(0,212,255,0.15)] transition-shadow duration-500">
+        <div className="relative glass-premium rounded-2xl overflow-hidden aspect-[4/5] shadow-[0_8px_32px_rgba(0,0,0,0.4)] group-hover:shadow-[0_12px_48px_rgba(212, 175, 55,0.15)] transition-shadow duration-500">
           <motion.div
             className="absolute inset-0 pointer-events-none z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
             style={{ background: reflectionBg }}

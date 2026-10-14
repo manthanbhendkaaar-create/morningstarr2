@@ -13,28 +13,28 @@ const OBJECTIONS = [
     answer:
       "Automation makes your staff more productive — not redundant. AI handles repetitive follow-ups, data entry, and scheduling so your team can focus on closing deals and serving clients.",
     icon: Users,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
   {
     question: "We are not technical.",
     answer:
       "You don't need to be. We handle the entire setup, integration, and ongoing maintenance. You get a working system with a simple dashboard — we manage the complexity.",
     icon: Wrench,
-    color: "#7B61FF",
+    color: "#b38f1d",
   },
   {
     question: "We use multiple tools.",
     answer:
       "That's exactly why we exist. We integrate your CRM, email, WhatsApp, calendars, and 500+ other tools into one seamless automation system that works together.",
     icon: Layers,
-    color: "#00FFB2",
+    color: "#f2d27a",
   },
   {
     question: "Will AI replace employees?",
     answer:
       "No. AI removes repetitive work — not people. Your team keeps doing what humans do best: building relationships, solving complex problems, and driving revenue.",
     icon: Bot,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
 ];
 

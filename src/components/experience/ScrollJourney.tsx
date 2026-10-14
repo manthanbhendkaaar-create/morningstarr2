@@ -51,7 +51,7 @@ export function ScrollJourney() {
         >
           <div
             className={`w-1.5 h-1.5 rounded-full transition-colors duration-500 ${
-              i <= activeIndex ? "bg-accent-green shadow-[0_0_8px_rgba(0,255,178,0.5)]" : "bg-white/20"
+              i <= activeIndex ? "bg-accent-green shadow-[0_0_8px_rgba(242, 210, 122,0.5)]" : "bg-white/20"
             }`}
           />
           <span className="text-[10px] text-text-muted whitespace-nowrap">{step}</span>

@@ -15,7 +15,7 @@ interface MagneticButtonProps {
 
 const variants = {
   primary:
-    "bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold hover:shadow-[0_0_30px_rgba(0,212,255,0.4)] bg-[length:200%_100%] hover:bg-[position:100%_0] transition-[background-position,box-shadow,transform] duration-500",
+    "bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold hover:shadow-[0_0_30px_rgba(212, 175, 55,0.4)] bg-[length:200%_100%] hover:bg-[position:100%_0] transition-[background-position,box-shadow,transform] duration-500",
   secondary:
     "glass text-text-primary border border-white/10 hover:border-accent-blue/50 hover:bg-white/5",
   ghost: "text-text-secondary hover:text-text-primary hover:bg-white/5",

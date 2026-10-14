@@ -12,28 +12,28 @@ const STEPS = [
     title: "Audit",
     description: "We analyze your current workflows, identify bottlenecks, and map automation opportunities.",
     icon: Search,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
   {
     number: "02",
     title: "Build",
     description: "Our team designs and builds custom AI automation systems tailored to your business.",
     icon: Hammer,
-    color: "#7B61FF",
+    color: "#b38f1d",
   },
   {
     number: "03",
     title: "Integrate",
     description: "We connect everything — CRM, email, WhatsApp, calendars — into one seamless system.",
     icon: Plug,
-    color: "#00FFB2",
+    color: "#f2d27a",
   },
   {
     number: "04",
     title: "Optimize",
     description: "Continuous monitoring and optimization to maximize ROI and performance.",
     icon: TrendingUp,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
 ];
 

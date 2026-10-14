@@ -54,7 +54,7 @@ export function NeuralNetworkBackground({ className }: { className?: string }) {
 
         ctx.beginPath();
         ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(123, 97, 255, 0.6)";
+        ctx.fillStyle = "rgba(179, 143, 29, 0.6)";
         ctx.fill();
 
         for (let j = i + 1; j < nodes.length; j++) {
@@ -67,7 +67,7 @@ export function NeuralNetworkBackground({ className }: { className?: string }) {
             ctx.moveTo(node.x, node.y);
             ctx.lineTo(other.x, other.y);
             const alpha = 0.15 * (1 - dist / 150);
-            ctx.strokeStyle = `rgba(0, 212, 255, ${alpha})`;
+            ctx.strokeStyle = `rgba(212, 175, 55, ${alpha})`;
             ctx.lineWidth = 0.8;
             ctx.stroke();
           }
@@ -108,8 +108,8 @@ export function AnimatedGrid({ className }: { className?: string }) {
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(0,212,255,0.5) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0,212,255,0.5) 1px, transparent 1px)
+            linear-gradient(rgba(212, 175, 55,0.5) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(212, 175, 55,0.5) 1px, transparent 1px)
           `,
           backgroundSize: "60px 60px",
         }}
@@ -125,7 +125,7 @@ export function GradientMesh({ className }: { className?: string }) {
         className="absolute -top-1/2 -left-1/2 w-full h-full opacity-30"
         style={{
           background:
-            "radial-gradient(ellipse at 30% 20%, rgba(0,212,255,0.15) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(123,97,255,0.15) 0%, transparent 50%), radial-gradient(ellipse at 50% 80%, rgba(0,255,178,0.08) 0%, transparent 40%)",
+            "radial-gradient(ellipse at 30% 20%, rgba(212, 175, 55,0.15) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(179, 143, 29,0.15) 0%, transparent 50%), radial-gradient(ellipse at 50% 80%, rgba(242, 210, 122,0.08) 0%, transparent 40%)",
         }}
       />
     </div>

@@ -8,7 +8,7 @@ export function SectionTransition() {
         className="absolute inset-0 opacity-30"
         style={{
           background:
-            "linear-gradient(90deg, transparent 0%, rgba(0,212,255,0.08) 50%, transparent 100%)",
+            "linear-gradient(90deg, transparent 0%, rgba(212, 175, 55,0.08) 50%, transparent 100%)",
           animation: "light-sweep 8s ease-in-out infinite",
         }}
       />

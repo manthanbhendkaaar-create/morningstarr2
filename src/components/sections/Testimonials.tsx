@@ -132,7 +132,7 @@ export function Testimonials() {
                     &ldquo;{testimonial.quote}&rdquo;
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center font-bold text-sm shadow-[0_0_20px_rgba(0,212,255,0.3)]">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center font-bold text-sm shadow-[0_0_20px_rgba(212, 175, 55,0.3)]">
                       {testimonial.initials}
                     </div>
                     <div className="text-center sm:text-left">
@@ -164,7 +164,7 @@ export function Testimonials() {
                     key={i}
                     onClick={() => setCurrent(i)}
                     className={`h-2 rounded-full transition-all duration-300 ${
-                      i === current ? "bg-accent-blue w-6 shadow-[0_0_8px_rgba(0,212,255,0.5)]" : "bg-white/20 w-2"
+                      i === current ? "bg-accent-blue w-6 shadow-[0_0_8px_rgba(212, 175, 55,0.5)]" : "bg-white/20 w-2"
                     }`}
                     aria-label={`Go to testimonial ${i + 1}`}
                   />

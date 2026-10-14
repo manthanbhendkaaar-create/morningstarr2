@@ -66,7 +66,7 @@ export function AutomationShowcase() {
                 className={cn(
                   "px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-300",
                   activeTab === tab.id
-                    ? "bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary shadow-[0_0_20px_rgba(0,212,255,0.3)]"
+                    ? "bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary shadow-[0_0_20px_rgba(212, 175, 55,0.3)]"
                     : "glass-premium text-text-secondary hover:text-text-primary"
                 )}
               >

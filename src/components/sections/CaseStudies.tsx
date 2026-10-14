@@ -15,7 +15,7 @@ import { Search, Send, CalendarCheck } from "lucide-react";
 const SYSTEMS = [
   {
     icon: Search,
-    color: "#00D4FF",
+    color: "#d4af37",
     name: "Lead Engine",
     stack: "n8n · YouTube Data API · Supabase",
     before: "Prospects found by hand, one channel at a time.",
@@ -24,7 +24,7 @@ const SYSTEMS = [
   },
   {
     icon: Send,
-    color: "#7B61FF",
+    color: "#b38f1d",
     name: "Outbound Engine",
     stack: "Google Apps Script · Gemini · Gmail + Workspace",
     before: "Copy-paste emails and no idea which inbox was landing in spam.",
@@ -33,7 +33,7 @@ const SYSTEMS = [
   },
   {
     icon: CalendarCheck,
-    color: "#00FFB2",
+    color: "#f2d27a",
     name: "Booking & Reporting",
     stack: "Calendly · Apps Script · UTM tracking",
     before: "No way to tell which email or inbox produced a call.",

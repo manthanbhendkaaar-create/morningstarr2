@@ -13,7 +13,7 @@ export function AmbientLayer() {
       <motion.div
         className="absolute w-[600px] h-[600px] rounded-full blur-[120px] opacity-20"
         style={{
-          background: "radial-gradient(circle, rgba(0,212,255,0.4) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(212, 175, 55,0.4) 0%, transparent 70%)",
           left: `${normalizedX * 100}%`,
           top: `${normalizedY * 100}%`,
           transform: "translate(-50%, -50%)",
@@ -27,7 +27,7 @@ export function AmbientLayer() {
         className="absolute -top-1/2 -left-1/2 w-full h-full opacity-[0.04]"
         style={{
           background:
-            "conic-gradient(from 0deg, rgba(0,212,255,0.3), rgba(123,97,255,0.3), rgba(0,255,178,0.2), rgba(0,212,255,0.3))",
+            "conic-gradient(from 0deg, rgba(212, 175, 55,0.3), rgba(179, 143, 29,0.3), rgba(242, 210, 122,0.2), rgba(212, 175, 55,0.3))",
         }}
       />
     </div>

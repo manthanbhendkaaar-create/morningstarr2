@@ -19,25 +19,25 @@ const EMPLOYEES = [
   {
     title: "AI Sales Representative",
     icon: TrendingUp,
-    color: "#00D4FF",
+    color: "#d4af37",
     features: ["Replies instantly", "Qualifies leads", "Books meetings"],
   },
   {
     title: "AI Customer Support Agent",
     icon: Headphones,
-    color: "#7B61FF",
+    color: "#b38f1d",
     features: ["Answers FAQs", "Handles tickets", "Supports customers"],
   },
   {
     title: "AI Operations Manager",
     icon: Settings,
-    color: "#00FFB2",
+    color: "#f2d27a",
     features: ["Assigns tasks", "Tracks progress", "Updates systems"],
   },
   {
     title: "AI Marketing Assistant",
     icon: Megaphone,
-    color: "#00D4FF",
+    color: "#d4af37",
     features: ["Sends emails", "Runs campaigns", "Nurtures leads"],
   },
 ];

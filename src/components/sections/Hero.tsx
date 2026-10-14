@@ -18,19 +18,19 @@ import { ParticleField } from "@/components/effects/ParticleField";
 import { HERO_BENEFITS, HERO_COPY, CTAS } from "@/lib/constants";
 
 const WORKFLOW_STEPS = [
-  { label: "Lead Arrives", color: "#00D4FF" },
-  { label: "AI Responds", color: "#7B61FF" },
-  { label: "Lead Qualified", color: "#00FFB2" },
-  { label: "Appointment Booked", color: "#00D4FF" },
-  { label: "CRM Updated", color: "#7B61FF" },
+  { label: "Lead Arrives", color: "#d4af37" },
+  { label: "AI Responds", color: "#b38f1d" },
+  { label: "Lead Qualified", color: "#f2d27a" },
+  { label: "Appointment Booked", color: "#d4af37" },
+  { label: "CRM Updated", color: "#b38f1d" },
 ];
 
 const ACTIVITY_FEED = [
   { text: "Lead Captured", source: "Facebook Ads", color: "#1877F2" },
-  { text: "AI Replied", source: "12s response", color: "#00D4FF" },
-  { text: "Meeting Booked", source: "Calendly", color: "#00FFB2" },
-  { text: "CRM Updated", source: "HubSpot", color: "#7B61FF" },
-  { text: "Email Sent", source: "Follow-up seq.", color: "#00D4FF" },
+  { text: "AI Replied", source: "12s response", color: "#d4af37" },
+  { text: "Meeting Booked", source: "Calendly", color: "#f2d27a" },
+  { text: "CRM Updated", source: "HubSpot", color: "#b38f1d" },
+  { text: "Email Sent", source: "Follow-up seq.", color: "#d4af37" },
 ];
 
 const FLOATING_CARDS = [

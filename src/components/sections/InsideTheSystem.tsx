@@ -7,11 +7,11 @@ import { PremiumGlassCard } from "@/components/ui/PremiumGlassCard";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const TIMELINE = [
-  { time: "0s", label: "Lead Arrives", color: "#00D4FF" },
-  { time: "5s", label: "AI Responds", color: "#7B61FF" },
-  { time: "12s", label: "Lead Qualified", color: "#00FFB2" },
-  { time: "18s", label: "Appointment Booked", color: "#00D4FF" },
-  { time: "30s", label: "CRM Updated", color: "#7B61FF" },
+  { time: "0s", label: "Lead Arrives", color: "#d4af37" },
+  { time: "5s", label: "AI Responds", color: "#b38f1d" },
+  { time: "12s", label: "Lead Qualified", color: "#f2d27a" },
+  { time: "18s", label: "Appointment Booked", color: "#d4af37" },
+  { time: "30s", label: "CRM Updated", color: "#b38f1d" },
 ];
 
 export function InsideTheSystem() {

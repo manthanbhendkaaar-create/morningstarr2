@@ -42,7 +42,7 @@ export function AIBrainDivider() {
 
         ctx.beginPath();
         ctx.arc(x, y, 2 + node.layer * 0.5, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(0, 212, 255, ${0.3 + node.layer * 0.15})`;
+        ctx.fillStyle = `rgba(212, 175, 55, ${0.3 + node.layer * 0.15})`;
         ctx.fill();
 
         const next = nodes[(i + 1) % nodes.length];
@@ -51,14 +51,14 @@ export function AIBrainDivider() {
         ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.lineTo(nx, ny);
-        ctx.strokeStyle = "rgba(123, 97, 255, 0.12)";
+        ctx.strokeStyle = "rgba(179, 143, 29, 0.12)";
         ctx.lineWidth = 0.5;
         ctx.stroke();
       });
 
       ctx.beginPath();
       ctx.arc(cx, cy, 8, 0, Math.PI * 2);
-      ctx.fillStyle = "rgba(0, 255, 178, 0.4)";
+      ctx.fillStyle = "rgba(242, 210, 122, 0.4)";
       ctx.fill();
 
       animationId = requestAnimationFrame(draw);

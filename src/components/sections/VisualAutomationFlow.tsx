@@ -6,11 +6,11 @@ import { cn } from "@/lib/utils";
 
 const FLOW_NODES = [
   { id: "meta", label: "Meta Lead", icon: "M", color: "#1877F2", x: 0 },
-  { id: "ai", label: "AI Agent", icon: "AI", color: "#00D4FF", x: 1 },
+  { id: "ai", label: "AI Agent", icon: "AI", color: "#d4af37", x: 1 },
   { id: "whatsapp", label: "WhatsApp", icon: "W", color: "#25D366", x: 2 },
-  { id: "crm", label: "CRM", icon: "C", color: "#7B61FF", x: 3 },
+  { id: "crm", label: "CRM", icon: "C", color: "#b38f1d", x: 3 },
   { id: "calendar", label: "Google Calendar", icon: "G", color: "#4285F4", x: 4 },
-  { id: "sales", label: "Sales Team", icon: "S", color: "#00FFB2", x: 5 },
+  { id: "sales", label: "Sales Team", icon: "S", color: "#f2d27a", x: 5 },
 ];
 
 export function VisualAutomationFlow() {
@@ -49,7 +49,7 @@ export function VisualAutomationFlow() {
                 y1="50%"
                 x2={`${x2}%`}
                 y2="50%"
-                stroke={isActive ? "rgba(0,212,255,0.4)" : "rgba(255,255,255,0.08)"}
+                stroke={isActive ? "rgba(212, 175, 55,0.4)" : "rgba(255,255,255,0.08)"}
                 strokeWidth="2"
                 strokeDasharray={isActive ? "6 4" : "none"}
                 className={isActive ? "flow-line" : ""}
@@ -61,8 +61,8 @@ export function VisualAutomationFlow() {
               cx={`${((fromIdx + 0.5 + packetProgress) / FLOW_NODES.length) * 100}%`}
               cy="50%"
               r="4"
-              fill="#00FFB2"
-              style={{ filter: "drop-shadow(0 0 6px rgba(0,255,178,0.8))" }}
+              fill="#f2d27a"
+              style={{ filter: "drop-shadow(0 0 6px rgba(242, 210, 122,0.8))" }}
             />
           )}
         </svg>

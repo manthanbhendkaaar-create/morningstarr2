@@ -13,26 +13,26 @@ const TRUST_CARDS = [
     title: "Fast Deployment",
     description: "Your first system is live within 5 days of kickoff.",
     icon: Rocket,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
   {
     title: "Fully Customized",
     description: "Built around how your agency already delivers, on the tools you already pay for.",
     icon: Sliders,
-    color: "#7B61FF",
+    color: "#b38f1d",
   },
   {
     title: "Human + AI",
     description:
       "Systems handle the busywork. Your strategists and account managers keep the judgment calls.",
     icon: Users,
-    color: "#00FFB2",
+    color: "#f2d27a",
   },
   {
     title: "Continuous Optimization",
     description: "On retainer, we monitor, fix and extend your systems every week.",
     icon: TrendingUp,
-    color: "#00D4FF",
+    color: "#d4af37",
   },
 ];
 

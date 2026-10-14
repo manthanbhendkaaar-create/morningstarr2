@@ -57,7 +57,7 @@ export function PremiumCursor() {
         aria-hidden="true"
         style={{
           background:
-            "radial-gradient(circle, rgba(0,212,255,0.04) 0%, rgba(123,97,255,0.02) 40%, transparent 70%)",
+            "radial-gradient(circle, rgba(212, 175, 55,0.04) 0%, rgba(179, 143, 29,0.02) 40%, transparent 70%)",
           willChange: "transform",
         }}
       />
@@ -66,7 +66,7 @@ export function PremiumCursor() {
         className="fixed top-0 left-0 w-8 h-8 rounded-full pointer-events-none z-[9998]"
         aria-hidden="true"
         style={{
-          background: "radial-gradient(circle, rgba(0,212,255,0.15) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(212, 175, 55,0.15) 0%, transparent 70%)",
           willChange: "transform",
         }}
       />
@@ -75,8 +75,8 @@ export function PremiumCursor() {
         className="fixed top-0 left-0 w-3 h-3 rounded-full pointer-events-none z-[9999]"
         aria-hidden="true"
         style={{
-          background: "rgba(0,212,255,0.8)",
-          boxShadow: "0 0 12px rgba(0,212,255,0.6), 0 0 24px rgba(123,97,255,0.3)",
+          background: "rgba(212, 175, 55,0.8)",
+          boxShadow: "0 0 12px rgba(212, 175, 55,0.6), 0 0 24px rgba(179, 143, 29,0.3)",
           willChange: "transform",
         }}
       />
