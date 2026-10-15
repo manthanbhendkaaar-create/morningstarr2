@@ -24,6 +24,7 @@ const FOOTER_LINKS = {
     { label: "How It Works", href: "/#how-it-works" },
     { label: "FAQ", href: "/#faq" },
     { label: "Guides", href: "/guides" },
+    { label: "Asendify Books (21 playbooks)", href: "https://www.asendify.co/books/?utm_source=morningstarr&utm_medium=footer", external: true },
   ],
   Services: [
     { label: "Comment & DM Replies", href: "/#gallery" },

@@ -48,6 +48,7 @@ export const NAV_LINKS = [
   { label: "Content Engine", href: "/content-engine" },
   { label: "How It Works", href: "/#how-it-works" },
   { label: "FAQ", href: "/#faq" },
+  { label: "Books", href: "https://www.asendify.co/books/?utm_source=morningstarr&utm_medium=nav" },
 ] as const;
 
 /** AI Content Engine: done-for-you faceless YouTube channel in the client's cloned voice (page: /content-engine) */
