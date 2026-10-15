@@ -54,6 +54,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-bg-primary text-text-primary antialiased">
         {children}
         <Script src="/blossom.js?v=1" strategy="afterInteractive" />
+        <Script src="/asd-booksbar.js" data-src="morningstarr" strategy="afterInteractive" />
       </body>
     </html>
   );
