@@ -30,3 +30,6 @@
 - Email: manthanbhendkaaar@gmail.com
 - Founder: Manthan Bhendkar (https://www.linkedin.com/in/manthan-bhendkar-93b452395/)
 - Parent company: [Asendify](https://www.asendify.co/)
+
+## Articles
+- [Articles](https://morningstarr.asendify.co/blog): practical guides, new ones published regularly.
