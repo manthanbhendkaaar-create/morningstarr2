@@ -53,7 +53,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full scroll-smooth`}>
       <body className="min-h-full flex flex-col bg-bg-primary text-text-primary antialiased">
         {children}
-        <Script src="/blossom.js?v=3" strategy="afterInteractive" />
+        <Script src="/blossom.js?v=5" strategy="afterInteractive" />
         <Script src="/asd-booksbar.js" data-src="morningstarr" strategy="afterInteractive" />
       </body>
     </html>
