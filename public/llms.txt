@@ -25,6 +25,11 @@
 - [Zapier vs custom AI automation](https://morningstarr.asendify.co/guides/zapier-vs-custom-ai-automation): When each one fits an agency.
 - [AI Content Engine guide](https://morningstarr.asendify.co/guides/ai-content-engine-youtube-in-your-voice): Running a YouTube channel in your own voice.
 
+## Free tool
+- [Automation ROI Calculator](https://morningstarr.asendify.co/automation-roi-calculator/): Enter how long a task takes, how often it is done each week and the hourly cost of the person doing it to see hours and money saved per month and per year, plus payback time for a build cost you enter. Free, runs in the browser.
+- Who it's for: agency owners and business owners deciding whether a task is worth automating.
+- More free tools from Asendify: https://www.asendify.co/tools/
+
 ## Contact
 - Book a Consultation Call: https://morningstarr.asendify.co/?book=1
 - Email: manthanbhendkaaar@gmail.com

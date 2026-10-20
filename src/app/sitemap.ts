@@ -19,6 +19,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      // 2026-10-20: free tool (static page in public/, served with the trailing slash).
+      url: `${SITE.url}/automation-roi-calculator/`,
+      lastModified: "2026-10-20",
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${SITE.url}/guides`,
       lastModified: LAST_MODIFIED,
       changeFrequency: "weekly",

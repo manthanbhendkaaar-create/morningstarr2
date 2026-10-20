@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automation ROI Calculator: Hours, Money Saved and Payback | MorningstarrAI</title>
+<meta name="description" content="Free automation ROI calculator: task minutes × times per week × hourly cost gives hours and money saved per month, plus payback time for the build cost you enter.">
+<link rel="canonical" href="https://morningstarr.asendify.co/automation-roi-calculator/">
+<meta name="theme-color" content="#050505">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MorningstarrAI">
+<meta property="og:title" content="Is automating this task worth it? Free automation ROI calculator">
+<meta property="og:description" content="Hours saved, money saved per month and per year, and payback time for any build cost.">
+<meta property="og:url" content="https://morningstarr.asendify.co/automation-roi-calculator/">
+<meta property="og:image" content="https://morningstarr.asendify.co/automation-roi-calculator/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://morningstarr.asendify.co/automation-roi-calculator/og.png">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebApplication",
+   "name": "Automation ROI Calculator",
+   "url": "https://morningstarr.asendify.co/automation-roi-calculator/",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Any (web browser)",
+   "isAccessibleForFree": true,
+   "description": "Free automation ROI calculator: enter how long a task takes, how often it is done each week and the hourly cost of the person doing it to see hours and money saved per month and per year, plus the payback time for a build cost you enter.",
+   "dateModified": "2026-10-20",
+   "inLanguage": "en",
+   "publisher": {
+    "@type": "Organization",
+    "name": "Asendify",
+    "url": "https://www.asendify.co/"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "GBP"
+   },
+   "about": {
+    "@type": "Organization",
+    "name": "MorningstarrAI",
+    "url": "https://morningstarr.asendify.co/"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How do I calculate the ROI of automating a task?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hours saved per month = minutes per task × times per week × 4.33 weeks ÷ 60. Money saved = hours saved × the hourly cost of the person doing it, minus any monthly tool costs. Payback time = the one-off build cost ÷ money saved per month."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why multiply by 4.33 weeks?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A year has 52 weeks and 12 months, so an average month has 52 ÷ 12 = 4.33 weeks. Using 4 weeks would undercount the time spent by about 8%."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What hourly cost should I use?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use what an hour of that person's time really costs you: salary or contractor rate plus employer costs, or for your own time, what you could bill for that hour. The calculator works in any currency."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What if the automation only does part of the task?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Set the share automated below 100%. If a person still checks each result for a fifth of the time, enter 80%. The hours and money saved are scaled down to match."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a good payback time for an automation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is no single rule; it depends on your cash flow. Many businesses are comfortable with builds that pay for themselves within a year. The calculator shows payback in months so you can compare options."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does this include the time to build and maintain the automation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only what you enter. Add the build cost as the one-off cost and any software, AI or hosting fees as the monthly tool cost. Fixes and changes over time are not included unless you add them to the monthly cost."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "MorningstarrAI",
+     "item": "https://morningstarr.asendify.co/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Automation ROI calculator",
+     "item": "https://morningstarr.asendify.co/automation-roi-calculator/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+:root{--bg:#050505;--bg2:#0d0b07;--gold:#d4af37;--gold2:#f2d27a;--gold3:#b38f1d;--ink:#f4efe3;--mut:#b4a98f;--dim:#8a8170;--line:rgba(255,255,255,.08);--glass:rgba(17,15,10,.6)}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Inter,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(900px 480px at 85% -10%,rgba(212,175,55,.12),transparent 60%),radial-gradient(700px 380px at 0% 20%,rgba(179,143,29,.08),transparent 60%);z-index:-1}
+a{color:var(--gold)}
+.wrap{max-width:900px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:10;background:rgba(5,5,5,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+header .wrap{max-width:1120px;display:flex;justify-content:space-between;align-items:center;min-height:64px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;letter-spacing:.06em;font-size:15px}
+.logo img{width:30px;height:30px;border-radius:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 20px;font:600 15px/1.2 Inter,sans-serif;text-decoration:none;cursor:pointer;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--ink)}
+.btn.pri{background:linear-gradient(135deg,var(--gold2),var(--gold) 50%,var(--gold3));color:#140f02;border:0;box-shadow:0 10px 30px rgba(212,175,55,.25)}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700;border:1px solid rgba(212,175,55,.3);border-radius:999px;padding:5px 12px;margin-top:40px}
+h1{font-size:clamp(32px,5vw,50px);line-height:1.1;letter-spacing:-.02em;margin:16px 0 14px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.01em;margin:46px 0 10px}
+.answer{font-size:19px;margin:0 0 10px}.updated{font-size:14px;color:var(--mut);margin:0 0 20px}
+.card{background:var(--glass);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:22px;margin:16px 0;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:15px}label small{font-weight:400;color:var(--mut);font-size:13px}
+input,select{font:inherit;padding:11px 12px;border:1px solid rgba(255,255,255,.12);border-radius:10px;background:#0b0a07;color:var(--ink);width:100%;min-width:0}
+input:focus,select:focus{outline:2px solid var(--gold);outline-offset:1px}
+.unit{display:flex;gap:8px}.unit select{width:auto;flex:none}
+.res{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.r{background:#0b0a07;border:1px solid var(--line);border-radius:14px;padding:16px}.r .k{color:var(--mut);font-size:14px}
+.r .big{font-size:32px;font-weight:800;letter-spacing:-.02em;line-height:1.15;overflow-wrap:anywhere;background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.r p{margin:6px 0 0;font-size:14px;color:var(--mut)}
+.err{color:#ff8a7a;font-weight:600}.note{font-size:14px;color:var(--mut)}
+p{color:#e2dccb}.mut{color:var(--mut)}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}th{color:var(--mut);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+details{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px;background:rgba(17,15,10,.5)}summary{cursor:pointer;font-weight:600}details p{color:var(--mut);margin:8px 0 0}
+.share{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+footer{border-top:1px solid var(--line);color:var(--mut);font-size:14px;padding:30px 0 50px;margin-top:60px}footer a{color:var(--mut)}footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media (max-width:600px){.hide-m{display:none}.r .big{font-size:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="/"><img src="/morningstarai-logo.png" alt="" width="30" height="30">MORNINGSTARR AI</a>
+  <nav style="display:flex;gap:16px;align-items:center"><a class="hide-m" href="/guides" style="color:var(--mut);text-decoration:none;font-size:15px">Guides</a><a class="btn pri" href="/?book=1&amp;utm_source=tool&amp;utm_medium=automation-roi-calculator&amp;utm_campaign=header">Book a call</a></nav>
+</div></header>
+<main class="wrap">
+<span class="eyebrow">Free tool</span>
+<h1>Is automating this task <em>worth it?</em></h1>
+<p class="answer">Hours saved per month = minutes per task × times per week × 4.33 ÷ 60. Multiply by the hourly cost of whoever does it to get money saved, then divide your build cost by the monthly saving for the payback time. A 20-minute task done 25 times a week is about 36 hours a month.</p>
+<p class="updated">Last updated: <time datetime="2026-10-20">20 October 2026</time> · Free, no sign-up, nothing leaves your browser.</p>
+
+<div class="card">
+ <div class="fields">
+  <label>Task (optional)<input type="text" id="task" maxlength="80" placeholder="e.g. Writing weekly client reports"></label>
+  <label>Minutes per task<input type="number" id="mins" min="0" step="any" value="20" inputmode="decimal"></label>
+  <label>Times per week<input type="number" id="perWeek" min="0" step="any" value="25" inputmode="decimal"><small>Across everyone who does it</small></label>
+  <label>Hourly cost of the person<span class="unit"><input type="number" id="rate" min="0" step="any" value="25" inputmode="decimal"><select id="cur" aria-label="Currency"><option>GBP</option><option>USD</option><option>EUR</option><option>INR</option><option>AED</option></select></span><small>Pay plus employer costs, or your own hourly value</small></label>
+  <label>Share of the task automated (%)<input type="number" id="share" min="0" max="100" step="1" value="100" inputmode="numeric"><small>Lower it if a person still checks the output</small></label>
+  <label>Monthly tool cost (optional)<input type="number" id="tools" min="0" step="any" value="0" inputmode="decimal"><small>Software, AI and hosting fees</small></label>
+  <label>One-off build cost (optional)<input type="number" id="build" min="0" step="any" value="" placeholder="e.g. a quote you have" inputmode="decimal"><small>Enter a quote to see payback time</small></label>
+ </div>
+</div>
+<div class="card" id="out" aria-live="polite"></div>
+
+<h2>How the numbers are worked out</h2>
+<div class="tbl"><table>
+<tr><th>Result</th><th>Formula</th></tr>
+<tr><td>Hours saved per month</td><td>Minutes per task × times per week × 52 ÷ 12 ÷ 60 × share automated</td></tr>
+<tr><td>Money saved per month</td><td>Hours saved × hourly cost − monthly tool cost</td></tr>
+<tr><td>Money saved per year</td><td>Money saved per month × 12</td></tr>
+<tr><td>Payback time</td><td>Build cost ÷ money saved per month (in months)</td></tr>
+<tr><td>First-year net</td><td>Money saved per year − build cost</td></tr>
+</table></div>
+<p class="mut">The calculator only uses the numbers you type in. It does not know your business, so it can't promise a result; treat it as a quick way to compare tasks and quotes.</p>
+
+<h2>How MorningstarrAI helps</h2>
+<p>MorningstarrAI builds AI automations for marketing agencies and other businesses: replying to comments and DMs, following up new leads, turning one piece of content into ten, client reporting, onboarding and admin. Systems are built with n8n, Make, Google Apps Script or custom code, in accounts you own, and we run the same kind of systems on our own agency, Asendify, every day.</p>
+<p>Found a task worth automating? <a href="/?utm_source=tool&amp;utm_medium=automation-roi-calculator&amp;utm_campaign=helps#engagements">See how we work and what each engagement includes</a>, or book a call and bring the numbers from this calculator.</p>
+<p><a class="btn pri" href="/?book=1&amp;utm_source=tool&amp;utm_medium=automation-roi-calculator&amp;utm_campaign=cta">Book a consultation call</a></p>
+
+<h2>Questions</h2>
+<details><summary>How do I calculate the ROI of automating a task?</summary><p>Hours saved per month = minutes per task × times per week × 4.33 weeks ÷ 60. Money saved = hours saved × the hourly cost of the person doing it, minus any monthly tool costs. Payback time = the one-off build cost ÷ money saved per month.</p></details>
+<details><summary>Why multiply by 4.33 weeks?</summary><p>A year has 52 weeks and 12 months, so an average month has 52 ÷ 12 = 4.33 weeks. Using 4 weeks would undercount the time spent by about 8%.</p></details>
+<details><summary>What hourly cost should I use?</summary><p>Use what an hour of that person's time really costs you: salary or contractor rate plus employer costs, or for your own time, what you could bill for that hour. The calculator works in any currency.</p></details>
+<details><summary>What if the automation only does part of the task?</summary><p>Set the share automated below 100%. If a person still checks each result for a fifth of the time, enter 80%. The hours and money saved are scaled down to match.</p></details>
+<details><summary>What is a good payback time for an automation?</summary><p>There is no single rule; it depends on your cash flow. Many businesses are comfortable with builds that pay for themselves within a year. The calculator shows payback in months so you can compare options.</p></details>
+<details><summary>Does this include the time to build and maintain the automation?</summary><p>Only what you enter. Add the build cost as the one-off cost and any software, AI or hosting fees as the monthly tool cost. Fixes and changes over time are not included unless you add them to the monthly cost.</p></details>
+</main>
+<footer><div class="wrap"><div><b style="color:var(--ink)">MorningstarrAI</b> · AI automation by <a href="https://www.asendify.co/">Asendify</a></div><div><a href="/guides">Guides</a> · <a href="/blog">Articles</a> · <a href="https://www.asendify.co/tools/">All free tools</a> · <a href="https://www.asendify.co/policies/">Policies</a></div></div></footer>
+<script>
+(function(){
+'use strict';
+var $=function(i){return document.getElementById(i)};
+var IDS=['task','mins','perWeek','rate','cur','share','tools','build'];
+function num(i){var x=parseFloat(String($(i).value).replace(/[, ]/g,''));return isFinite(x)?x:0}
+function roi(o){
+ if(!(o.mins>0))return {err:'Enter how many minutes the task takes each time.'};
+ if(!(o.perWeek>0))return {err:'Enter how many times a week the task is done.'};
+ if(o.share<0||o.share>100)return {err:'Share automated must be between 0 and 100%.'};
+ var hours=o.mins*o.perWeek*52/12/60*(o.share/100);
+ var gross=hours*o.rate,net=gross-(o.tools||0);
+ var r={hours:hours,hoursYear:hours*12,gross:gross,net:net,year:net*12};
+ if(o.build>0){r.payback=net>0?o.build/net:Infinity;r.firstYear=net*12-o.build}
+ return r;
+}
+if(typeof module!=='undefined')module.exports={roi:roi};
+function money(x,cur){if(!isFinite(x))return '–';var neg=x<0;x=Math.abs(x);var s;try{s=new Intl.NumberFormat(cur==='INR'?'en-IN':'en-GB',{style:'currency',currency:cur,maximumFractionDigits:0}).format(x)}catch(e){s=cur+' '+Math.round(x)}return (neg?'−':'')+s}
+function nf(x,d){return isFinite(x)?new Intl.NumberFormat('en-GB',{maximumFractionDigits:d===undefined?1:d}).format(x):'–'}
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function calc(){
+ var cur=$('cur').value,o={mins:num('mins'),perWeek:num('perWeek'),rate:num('rate'),share:$('share').value===''?100:num('share'),tools:num('tools'),build:num('build')};
+ var r=roi(o),h;
+ if(r.err){$('out').innerHTML='<p class="err">'+r.err+'</p>';save();return}
+ var t=$('task').value.trim();
+ h=(t?'<p style="margin:0 0 12px"><b>'+esc(t)+'</b></p>':'')+'<div class="res">'
+ +'<div class="r"><div class="k">Hours saved per month</div><div class="big" id="rHours">'+nf(r.hours)+'</div><p>'+nf(r.hoursYear,0)+' hours a year.</p></div>'
+ +'<div class="r"><div class="k">Money saved per month</div><div class="big" id="rMonth">'+money(r.net,cur)+'</div><p>'+(o.tools>0?money(r.gross,cur)+' of time, minus '+money(o.tools,cur)+' tools.':'Hours saved × '+money(o.rate,cur)+' an hour.')+'</p></div>'
+ +'<div class="r"><div class="k">Money saved per year</div><div class="big" id="rYear">'+money(r.year,cur)+'</div><p>Monthly saving × 12.</p></div>';
+ if(o.build>0){
+  h+='<div class="r"><div class="k">Payback time</div><div class="big" id="rPayback">'+(isFinite(r.payback)?nf(r.payback)+' months':'Never')+'</div><p>'+(isFinite(r.payback)?'First-year net after the '+money(o.build,cur)+' build: '+money(r.firstYear,cur)+'.':'The tool costs are higher than the time saved, so the build never pays back.')+'</p></div>';
+ }
+ h+='</div>';
+ if(!(o.build>0))h+='<p class="note" style="margin-top:12px">Enter a one-off build cost to see the payback time.</p>';
+ if(!(o.rate>0))h+='<p class="note" style="margin-top:12px">Enter an hourly cost to turn hours into money.</p>';
+ h+='<div class="share"><button class="btn" type="button" id="copyBtn">Copy my result</button><button class="btn" type="button" id="linkBtn">Copy link to this result</button></div>';
+ $('out').innerHTML=h;
+ var txt=(t?t+': ':'')+'automating it saves '+nf(r.hours)+' hours and '+money(r.net,cur)+' a month ('+money(r.year,cur)+' a year)'+(o.build>0&&isFinite(r.payback)?', paying back a '+money(o.build,cur)+' build in '+nf(r.payback)+' months':'')+'.';
+ $('copyBtn').onclick=function(){copy(txt,this,'Copied ✓')};
+ $('linkBtn').onclick=function(){copy(location.origin+location.pathname+'?'+qs(),this,'Link copied ✓')};
+ save();
+}
+function qs(){var p=new URLSearchParams();IDS.forEach(function(i){p.set(i,String($(i).value).slice(0,80))});return p.toString()}
+function save(){try{history.replaceState(null,'','?'+qs())}catch(e){}}
+function copy(t,b,done){var ok=function(){b.textContent=done};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,ok)}else ok()}
+var q=new URLSearchParams(location.search);
+IDS.forEach(function(i){if(!q.has(i))return;var e=$(i),v=q.get(i).slice(0,80);
+ if(e.tagName==='SELECT'){if([].some.call(e.options,function(x){return x.value===v}))e.value=v;return}
+ if(e.type==='number'){var x=parseFloat(v);e.value=isFinite(x)?String(x):'';return}
+ e.value=v.replace(/[<>]/g,'')});
+IDS.forEach(function(i){$(i).addEventListener('input',calc);$(i).addEventListener('change',calc)});
+calc();
+})();
+</script>
+<script src="/asd-booksbar.js" data-src="morningstarr" defer></script>
+<script>/* 2026-10-20: real-visit counter for the Asendify Channels dashboard (same rules as the book shops). */
+(function(){try{if(sessionStorage.getItem('asd_sv')==='1')return;var q0=new URLSearchParams(location.search);
+if(q0.get('internal')==='1')document.cookie='asd_internal=1; domain=.asendify.co; path=/; max-age=63072000; SameSite=Lax; Secure';
+if(/(^|;\s*)asd_internal=1/.test(document.cookie))return;
+if(navigator.webdriver||/bot\b|bot\/|crawl|spider|slurp|preview|headless|lighthouse|scanner|facebookexternalhit/i.test(navigator.userAgent))return;
+var c=function(v){return String(v||'').toLowerCase().replace(/[^a-z0-9._-]/g,'').slice(0,60)};var src='';
+if(q0.get('utm_source'))src=[c(q0.get('utm_source')),c(q0.get('utm_medium')),c(q0.get('utm_campaign'))].join('/');
+if(!src&&document.referrer){var h=new URL(document.referrer).hostname.replace(/^www\./,'');if(h&&!/(^|\.)asendify\.co$/.test(h))src='ref/'+c(h);}
+src=src||'direct';var path=location.pathname.replace(/[^a-zA-Z0-9._\/-]/g,'').slice(0,120)||'/';
+var acts=['scroll','pointerdown','touchstart','keydown','mousemove','wheel'],sent=false,shown=0,tick;
+var send=function(how){if(sent)return;sent=true;clearInterval(tick);acts.forEach(function(e){removeEventListener(e,on,true)});
+try{sessionStorage.setItem('asd_sv','1')}catch(e){}
+fetch('https://playbook.asendify.co/api/ref',{method:'POST',mode:'no-cors',keepalive:true,headers:{'Content-Type':'text/plain'},body:JSON.stringify({visit:src,page:path,engaged:how,product:'morningstarr'})}).catch(function(){})};
+var on=function(){send('interact')};acts.forEach(function(e){addEventListener(e,on,{capture:true,passive:true})});
+tick=setInterval(function(){if(document.visibilityState==='visible'&&(shown+=1000)>=12000)send('time')},1000);}catch(e){}})();</script>
+</body>
+</html>
