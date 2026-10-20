@@ -1,5 +1,6 @@
 import { SITE, FOUNDER, CONTENT_ENGINE } from "@/lib/constants";
 import { SPRINT_CHECKOUT_URL } from "@/lib/guides";
+import { FAQS, INCLUDED_FLAT, LAST_UPDATED } from "@/lib/home-content";
 
 const ORG_ID = `${SITE.url}/#organization`;
 
@@ -30,6 +31,14 @@ export const HOME_JSON_LD = {
         "Make",
         "Google Apps Script",
       ],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Everything included",
+        itemListElement: INCLUDED_FLAT.map((it) => ({
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: it.name, description: it.desc },
+        })),
+      },
     },
     {
       "@type": "WebSite",
@@ -50,11 +59,11 @@ export const HOME_JSON_LD = {
       offers: {
         "@type": "Offer",
         name: "Automation Sprint (online checkout)",
-        price: "6525",
+        price: "9135",
         priceCurrency: "GBP",
         url: SPRINT_CHECKOUT_URL,
-        availability: "https://schema.org/InStock",
-        description: "£4,500 plus the 45% service fee (£2,025).",
+        availability: "https://schema.org/LimitedAvailability",
+        description: "£6,300 plus the 45% service fee (£2,835). Sprint slots are full right now: reserve one with a £500 refundable deposit.",
         seller: { "@id": ORG_ID },
       },
     },
@@ -65,7 +74,7 @@ export const HOME_JSON_LD = {
       serviceType: "Cold email automation",
       provider: { "@id": ORG_ID },
       description:
-        "The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days. £4,500 fixed price plus the 45% service fee.",
+        "The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days. £6,300 fixed price plus the 45% service fee.",
     },
     {
       "@type": "Service",
@@ -74,7 +83,7 @@ export const HOME_JSON_LD = {
       serviceType: "AI automation",
       provider: { "@id": ORG_ID },
       description:
-        "3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes. From £12,000 one-off plus the 45% service fee.",
+        "3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes. From £16,800 one-off plus the 45% service fee.",
     },
     {
       "@type": "Service",
@@ -83,7 +92,7 @@ export const HOME_JSON_LD = {
       serviceType: "Automation maintenance",
       provider: { "@id": ORG_ID },
       description:
-        "Weekly monitoring and fixes, new builds every month, priority WhatsApp support and a monthly review. From £2,500 per month plus the 45% service fee.",
+        "Weekly monitoring and fixes, new builds every month, priority WhatsApp support and a monthly review. From £3,500 per month plus the 45% service fee.",
     },
     {
       "@type": "Service",
@@ -93,6 +102,24 @@ export const HOME_JSON_LD = {
       provider: { "@id": ORG_ID },
       url: `${SITE.url}/content-engine`,
       description: `A faceless YouTube channel in the client's own cloned voice (with written consent): ${CONTENT_ENGINE.volume}, scripts, editing, uploading and a monthly report; first videos live within ${CONTENT_ENGINE.firstVideos}. ${CONTENT_ENGINE.price} per month plus ${CONTENT_ENGINE.setup} one-time setup, ${CONTENT_ENGINE.minimum} minimum, ${CONTENT_ENGINE.spots} client spots, plus the 45% service fee.`,
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${SITE.url}/#webpage`,
+      url: `${SITE.url}/`,
+      name: "MorningstarrAI | AI Automation for Marketing Agencies",
+      isPartOf: { "@id": `${SITE.url}/#website` },
+      about: { "@id": ORG_ID },
+      dateModified: LAST_UPDATED.iso,
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${SITE.url}/#faq`,
+      mainEntity: FAQS.map((f) => ({
+        "@type": "Question",
+        name: f.question,
+        acceptedAnswer: { "@type": "Answer", text: f.answer },
+      })),
     },
   ],
 };

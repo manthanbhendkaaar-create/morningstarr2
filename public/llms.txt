@@ -1,17 +1,34 @@
 # MorningstarrAI
 
-> MorningstarrAI builds AI automations for marketing agencies and other businesses: replying to comments and DMs, following up new leads, turning one piece of content into ten, client reporting, onboarding and admin, so agencies can take on more clients without hiring more people. Its Automation Sprint automates one process, live within 5 working days, and can be bought online for £6,525. Founded by Manthan Bhendkar; owned by Asendify (asendify.co). Tools: n8n, Make, Google Apps Script and custom code, set up in accounts the client owns.
+> MorningstarrAI builds AI automations for marketing agencies and other businesses: replying to comments and DMs, following up new leads, turning one piece of content into ten, client reporting, onboarding and admin, so agencies can take on more clients without hiring more people. Its Automation Sprint automates one process, live within 5 working days, for £9,135 (£6,300 + 45% service fee). MorningstarrAI is at full client capacity right now: new clients join a free waitlist or reserve a slot with a £500 refundable deposit. Founded by Manthan Bhendkar; owned by Asendify (asendify.co). Tools: n8n, Make, Google Apps Script and custom code, set up in accounts the client owns.
 
 ## Buy online
-- Automation Sprint: £6,525 at https://playbook.asendify.co/sprint (£4,500 + 45% service fee). One process automated end to end: workflow audit and system design, one process automated, tested and live, handover docs and a recorded walkthrough, 30 days of fixes. Payment first, then a call where the buyer describes the process; the automation goes live within 5 working days after that call. Buyers in India request an invoice.
+- Automation Sprint: £9,135 (£6,300 + 45% service fee), checkout https://playbook.asendify.co/sprint. One process automated end to end: workflow audit and system design, one process automated, tested and live, handover docs and a recorded walkthrough, 30 days of fixes. Payment first, then a call where the buyer describes the process; the automation goes live within 5 working days after that call. Buyers in India request an invoice. Sprint slots are full right now: reserve one with a £500 refundable deposit (https://playbook.asendify.co/msdeposit).
 
 ## Engagements (GBP; a 45% service fee applies on top of every fee)
-- Automation Sprint: £4,500 fixed price (£6,525 including the service fee when bought online, see above).
-- AI Outbound Engine: £4,500 fixed price. The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days.
-- Agency Operating System: from £12,000 one-off. 3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes.
-- Managed Automation Partner: from £2,500 per month. Monitoring, fixes, new builds every month, priority WhatsApp support and a monthly review.
+- Automation Sprint: £6,300 fixed price (£9,135 including the service fee, see above).
+- AI Outbound Engine: £6,300 fixed price. The cold-email system MorningstarrAI runs daily, set up on the client's inboxes: daily lead finding, personalised first lines, 2 follow-ups, AI replies that qualify leads and send a booking link, deliverability setup and a daily report. Live in 5 days.
+- Agency Operating System: from £16,800 one-off. 3 to 5 connected systems across the agency, built on its CRM, project tool and data sources, with team training, one operations dashboard and 60 days of fixes.
+- Managed Automation Partner: from £3,500 per month. Monitoring, fixes, new builds every month, priority WhatsApp support and a monthly review.
 - AI Content Engine: £3,000 per month + £1,500 one-time setup, 3-month minimum, 3 client spots. A done-for-you faceless YouTube channel in the client's own cloned voice (cloned from a 2-minute sample, with written consent): 30 Shorts and 8 long-form videos a month, scripts, editing, uploading and a monthly report; first videos live within 7 days.
 - No invented results: MorningstarrAI does not publish client results it does not have; it runs the same systems on its own agency, Asendify, every day.
+
+## Everything included, by name (last updated 20 October 2026)
+- Automation Sprint: Workflow audit and system design (we map the process before anything is built); One process automated end to end (tested and live within 5 working days after the process call); Handover docs and a recorded walkthrough (so your team knows how it works); 30 days of fixes (included after the Sprint goes live)
+- AI Outbound Engine: Daily lead finding (new leads added to your own sheet every day); Personal first lines (written for every lead from their website); 2 follow-ups (to people who don't reply); AI reply handling (answers every reply within minutes, qualifies the lead and sends your booking link; tricky replies come to you); Deliverability setup (warm-up, sending limits and spam checks); Daily report (emails sent, replies and calls booked)
+- Agency Operating System: 3 to 5 connected systems (replies, lead-to-call, content and delivery ops across the agency); Built on your stack (your CRM, project tool and data sources); Team training (your team is walked through every system); One operations dashboard (a single view of the systems); 60 days of fixes (included after go-live)
+- Managed Automation Partner: Weekly monitoring and fixes (we check and fix your systems every week); New builds every month (we keep extending what's automated); Priority support on WhatsApp (a direct line when something needs attention); Monthly performance review (what ran, what changed and what to build next)
+- Systems we build: Comment & DM Reply Assistant (drafts replies in each brand's voice and queues them for one-click approval); Content Repurposing Engine (turns one video, post or blog into captions, short clips, carousels and posts); Client Reporting Autopilot (pulls ads, analytics and social data, writes the commentary and sends a branded report); Lead-to-Call Engine (answers every inbound lead in minutes, qualifies it and books the call); Client Onboarding Autopilot (intake, folders, channels, tasks and the first call, from signed contract to kickoff); Ops & CRM Sync (keeps your CRM, project tool and sheets in sync)
+- AI Content Engine: Your cloned voice (from a 2-minute sample, with your written consent); 30 Shorts and 8 long-form videos a month (researched, scripted, edited, uploaded and scheduled to your channel); Monthly report and strategy call (first videos live within 7 days)
+- On every build: Works with your tools (HubSpot, GoHighLevel, ClickUp, Asana, Notion, Slack, Google Workspace, Meta and Google Ads, GA4, Calendly and anything with an API); Built with n8n, Make, Apps Script and custom code (whatever fits the job); You own it (every workflow, account and login is set up in accounts you own); The 5-day promise (your first system goes live within 5 days of kickoff, or we keep building at no extra cost until it does)
+- Full list: https://morningstarr.asendify.co/#everything-included
+
+## Who it's for
+- For: marketing agencies with a team and a steady client base (performance, social, SEO, PPC, content and creative agencies); agencies whose team spends hours replying to comments and DMs, chasing leads, repurposing content or moving data between tools; businesses that already know the one process they want automated.
+- Not for: replacing a team; off-the-shelf app subscriptions (everything is custom, in accounts the client owns); builds that must start this week (full client capacity right now).
+
+## Free tool
+- [Automation ROI Calculator](https://morningstarr.asendify.co/automation-roi-calculator/): free, estimate what automating a process is worth.
 
 ## Pages
 - [Home](https://morningstarr.asendify.co/): AI automation for marketing agencies: systems, proof, engagements, how it works and FAQ.

@@ -6,39 +6,9 @@ import { Plus, Minus } from "lucide-react";
 import { SectionHeading } from "@/components/ui/GlassCard";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { cn } from "@/lib/utils";
+import { FAQS } from "@/lib/home-content";
 
-const FAQS = [
-  {
-    question: "Which agencies is this for?",
-    answer:
-      "Marketing agencies with a team and a steady client base: performance, social, SEO, PPC, content and creative agencies. If your team spends hours replying to comments and DMs, chasing leads, repurposing content or moving data between tools, we can take that off them.",
-  },
-  {
-    question: "How much does it cost?",
-    answer:
-      "An Automation Sprint is £6,300 + 45% service fee for one process automated end to end. A full Agency Operating System starts from £16,800 + 45% service fee, and our managed partnership from £3,500 per month + 45% service fee. Everything is agreed on the consultation call before any work starts.",
-  },
-  {
-    question: "How long does it take?",
-    answer:
-      "Your first system goes live within 5 days of kickoff. If it isn't, we keep building at no extra cost until it is. Larger builds are delivered in stages so you see value early.",
-  },
-  {
-    question: "Will this replace my team?",
-    answer:
-      "No. It removes the busywork so your strategists and account managers can handle more clients and do more of the work clients value. Most agencies use the freed-up hours to grow without hiring.",
-  },
-  {
-    question: "What tools do you work with?",
-    answer:
-      "HubSpot, GoHighLevel, ClickUp, Asana, Notion, Slack, Google Workspace, Meta and Google Ads, GA4, Calendly and anything with an API. We build with n8n, Make, Apps Script and custom code, and everything is set up in accounts you own.",
-  },
-  {
-    question: "Do we need to be technical?",
-    answer:
-      "No. We design, build, test and document everything, then walk your team through it. On the managed plan we also monitor and fix it every week.",
-  },
-];
+
 
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

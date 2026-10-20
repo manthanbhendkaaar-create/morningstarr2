@@ -25,6 +25,7 @@ import { AutomationGallery } from "@/components/sections/AutomationGallery";
 import { Engagements } from "@/components/sections/Engagements";
 import { ObjectionHandling } from "@/components/sections/ObjectionHandling";
 import { FAQ } from "@/components/sections/FAQ";
+import { IncludedByName } from "@/components/sections/IncludedByName";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { SprintCheckout } from "@/components/sections/SprintCheckout";
 import { JsonLd } from "@/components/guides/GuidePage";
@@ -56,6 +57,7 @@ export default function Home() {
         <ManualVsAI />
         <DiyVsAutomation />
         <HowItWorks />
+        <IncludedByName />
         <Engagements />
         <SprintCheckout />
         <AIBrainDivider />
