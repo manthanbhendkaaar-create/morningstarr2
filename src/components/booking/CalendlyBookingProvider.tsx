@@ -5,13 +5,13 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useRef,
   useState,
   type CSSProperties,
   type FormEvent,
   type ReactNode,
 } from "react";
 import { createPortal } from "react-dom";
-import { CALENDLY_URL } from "@/lib/constants";
 import { FULL_CAPACITY, WAITLIST_DEPOSIT_URL } from "@/lib/guides";
 
 // Booking popup for the consultation call (charged after the call).
@@ -20,9 +20,25 @@ import { FULL_CAPACITY, WAITLIST_DEPOSIT_URL } from "@/lib/guides";
 // Then, outside India: the calendar opens straight away.
 // In India: the client first sets up a Razorpay eNACH bank mandate (nothing is charged), then picks a time.
 // The fee is debited from the mandate after the call.
+// 2026-10-20 (Manthan: "let AIs pay but don't let them book a call"): the brief now goes through the "human-gate" function,
+// which checks a press-and-hold "you're a real person" step, the honeypot and the time on the form ON THE SERVER, then saves
+// the brief with the "strategy" function and only then returns the calendar link. The link is no longer in the page.
 
 const MANDATE_FN = "https://pnokotvssodslxozepxe.supabase.co/functions/v1/mandate";
-const STRATEGY_FN = "https://pnokotvssodslxozepxe.supabase.co/functions/v1/strategy";
+type HumanCheckApi = { ready: () => boolean; submit: (b: { form: Record<string, string>; hp: string }) => Promise<{ ok?: boolean; error?: string; network?: boolean; cal?: { url?: string } }> };
+declare global {
+  interface Window { HumanCheck?: { mount: (el: HTMLElement, brand: string) => HumanCheckApi } }
+}
+function loadHumanCheck(): Promise<void> {
+  return new Promise((ok, bad) => {
+    if (window.HumanCheck) return ok();
+    const s = document.createElement("script");
+    s.src = "/human-check.js?v=1";
+    s.onload = () => ok();
+    s.onerror = () => bad(new Error("Could not load the check. Please refresh the page."));
+    document.head.appendChild(s);
+  });
+}
 
 type Brief = Record<string, string>;
 const BRIEF_FIELDS: { k: string; label: string; type?: "select" | "textarea" | "email" | "url"; options?: [string, string][]; required?: boolean; placeholder?: string; wide?: boolean }[] = [
@@ -110,16 +126,25 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
   const [briefDone, setBriefDone] = useState(false);
   const [briefBusy, setBriefBusy] = useState(false);
   const [hp, setHp] = useState("");
-  const [bookingUrl, setBookingUrl] = useState(CALENDLY_URL);
+  const [bookingUrl, setBookingUrl] = useState("");
+  const [calUrl, setCalUrl] = useState("");
   const [msg, setMsg] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [company, setCompany] = useState("");
+  const hc = useRef<HumanCheckApi | null>(null);
+  const hcRef = useCallback((el: HTMLDivElement | null) => {
+    hc.current = null;
+    if (!el) return;
+    loadHumanCheck().then(() => { if (el.isConnected && window.HumanCheck) hc.current = window.HumanCheck.mount(el, "morningstarr"); })
+      .catch((e: Error) => setMsg(e.message));
+  }, []);
 
   useEffect(() => {
     setMounted(true);
     if (new URLSearchParams(window.location.search).get("book") === "1") {
+      try { const m = document.createElement("meta"); m.name = "robots"; m.content = "noindex, nofollow"; document.head.appendChild(m); } catch {}
       window.history.replaceState(null, "", window.location.pathname + window.location.hash);
       setOpen(true);
     }
@@ -155,19 +180,16 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
     const missing = BRIEF_FIELDS.find((f) => f.required && !(brief[f.k] || "").trim());
     if (missing) { setMsg("Please fill in: " + missing.label); return; }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test((brief.email || "").trim())) { setMsg("Please enter a valid email."); return; }
+    if (!hc.current || !hc.current.ready()) { setMsg("Please press and hold the button to confirm you're a person."); return; }
     setMsg("");
     setBriefBusy(true);
-    let ok = false;
-    try {
-      const r = await fetch(STRATEGY_FN, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action: "submit", brand: "morningstarr", form: brief, hp }) });
-      const j = await r.json();
-      ok = !!(j && j.ok);
-      if (!ok) setMsg((j && j.error) || "Something went wrong. Please try again.");
-    } catch {
-      ok = true;                       // don't block booking on a network problem
-    }
+    const r = await hc.current.submit({ form: brief, hp });
     setBriefBusy(false);
-    if (!ok) return;
+    if (!r || !r.ok || !r.cal || !r.cal.url) {
+      setMsg(r && r.network ? "We can't reach our booking server. Please try again, or email " + "manthanbhendkaaar@gmail.com" + "." : (r && r.error) || "Something went wrong. Please try again.");
+      return;
+    }
+    setCalUrl(r.cal.url);
     setName((n) => n || brief.name || "");
     setEmail((m) => m || brief.email || "");
     setCompany((c) => c || brief.company || "");
@@ -201,7 +223,8 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
       handler: async (p: { razorpay_payment_id: string }) => {
         const d = await post({ action: "done", order_id: r.order_id, payment_id: p.razorpay_payment_id });
         if (d && d.ok) {
-          setBookingUrl(withPrefill(CALENDLY_URL, brief));
+          if (!calUrl) { setStep("brief"); setBriefDone(false); return; }
+          setBookingUrl(withPrefill(calUrl, brief));
           setStep("calendar");
         } else {
           setStep("form");
@@ -212,7 +235,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
     });
     rzp.on("payment.failed", (f) => { setStep("form"); setMsg((f && f.error && f.error.description) || "The mandate didn't go through. Please try again."); });
     rzp.open();
-  }, [name, email, phone, company, brief]);
+  }, [name, email, phone, company, brief, calUrl]);
 
   // Close on Escape and stop the page behind from scrolling while open.
   useEffect(() => {
@@ -281,6 +304,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
           ))}
         </div>
         <input value={hp} onChange={(e) => setHp(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", opacity: 0 }} />
+        <div ref={hcRef} />
         {msg && <p style={{ color: "#b91c1c", fontSize: "14px", margin: "0 0 12px" }}>{msg}</p>}
         <button type="submit" disabled={briefBusy} style={{ ...primary, opacity: briefBusy ? 0.7 : 1 }}>
           {briefBusy ? "Saving…" : "Continue to booking"}
@@ -291,7 +315,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
         <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 18px" }}>Book a Consultation Call</h2>
         <p style={{ fontWeight: 600, margin: "0 0 12px" }}>Where is your business based?</p>
         <div style={{ display: "grid", gap: "10px" }}>
-          <button type="button" style={primary} onClick={() => { setBookingUrl(withPrefill(CALENDLY_URL, brief)); setStep("calendar"); }}>Outside India</button>
+          <button type="button" style={primary} onClick={() => { if (!calUrl) { setBriefDone(false); setStep("brief"); return; } setBookingUrl(withPrefill(calUrl, brief)); setStep("calendar"); }}>Outside India</button>
           <button type="button" style={secondary} onClick={() => setStep("form")}>In India</button>
         </div>
       </div>

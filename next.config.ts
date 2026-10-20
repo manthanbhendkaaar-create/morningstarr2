@@ -8,6 +8,12 @@ import type { NextConfig } from "next";
 // below also answers /automation-roi-calculator; the page's canonical tag points to the slash URL.)
 const nextConfig: NextConfig = {
   skipTrailingSlashRedirect: true,
+  // 2026-10-20: the consultation-call booking (/?book=1) is for people only: hidden from search and AI.
+  async headers() {
+    return [
+      { source: "/:path*", has: [{ type: "query", key: "book" }], headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }] },
+    ];
+  },
   async redirects() {
     return [
       { source: "/:path((?!automation-roi-calculator/?$).+)/", destination: "/:path", permanent: true },

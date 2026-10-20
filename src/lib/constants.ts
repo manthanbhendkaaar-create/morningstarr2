@@ -8,13 +8,10 @@ export const SITE = {
   whatsapp: "+91 75884 68884",
   linkedin: "https://www.linkedin.com/in/manthan-bhendkar-93b452395/",
   location: "Dubai Downtown",
-  calendlyUrl:
-    process.env.NEXT_PUBLIC_CALENDLY_URL ||
-    "https://cal.com/manthan-bhendkar-5bceko/morningstarr?utm_source=morningstarr&utm_content=website",
 } as const;
 
-/** Single source of truth for all booking CTAs */
-export const CALENDLY_URL = SITE.calendlyUrl;
+// 2026-10-20: the booking calendar link is no longer shipped in the site's code. The human-gate function returns it only
+// after the booking form passed the "you're a real person" check (see components/booking/CalendlyBookingProvider.tsx).
 
 export const DEMO_VIDEO_SRC = "/demo-video.mp4";
 

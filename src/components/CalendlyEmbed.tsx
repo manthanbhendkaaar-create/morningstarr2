@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { CALENDLY_URL } from "@/lib/constants";
 
 const InlineWidget = dynamic(
   () => import("react-calendly").then((mod) => mod.InlineWidget),
@@ -25,7 +24,7 @@ export function CalendlyEmbed({ url, className }: CalendlyEmbedProps) {
   return (
     <div className={className}>
       <InlineWidget
-        url={url ?? CALENDLY_URL}
+        url={url ?? ""}
         styles={{ height: "700px", minWidth: "320px" }}
         pageSettings={{
           backgroundColor: "050816",

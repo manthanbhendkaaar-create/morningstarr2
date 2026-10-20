@@ -114,7 +114,7 @@ export function Footer() {
                       className="text-sm text-text-secondary hover:text-accent-blue transition-colors"
                       {...("external" in link && link.external
                         ? { target: "_blank", rel: "noopener noreferrer" }
-                        : {})}
+                        : link.href.includes("book=1") ? { rel: "nofollow" } : {})}
                     >
                       {link.label}
                     </a>
