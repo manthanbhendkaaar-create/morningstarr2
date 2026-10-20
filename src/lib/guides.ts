@@ -92,7 +92,7 @@ export const GUIDES: Guide[] = [
         h2: "How should an agency get started?",
         body: [
           "Start with one process, not a transformation programme. Choose the job that costs the most hours per week, happens on a fixed trigger and has a clear finished state. Lead follow-up, monthly reporting and comment replies usually qualify.",
-          "If you already know the process, the [Automation Sprint](/guides/ai-automation-agency-cost) can be bought online for £6,525 (£4,500 plus the 45% service fee). Payment comes first, then a call where you walk through the process, and the automation goes live within 5 working days after that call. If you are not sure which process to pick, book a consultation call and decide together.",
+          "If you already know the process, the [Automation Sprint](/guides/ai-automation-agency-cost) can be bought online for £9,135 (£6,300 plus the 45% service fee). Payment comes first, then a call where you walk through the process, and the automation goes live within 5 working days after that call. If you are not sure which process to pick, book a consultation call and decide together.",
         ],
       },
     ],
@@ -395,9 +395,9 @@ export const GUIDES: Guide[] = [
     title: "How Much Does an AI Automation Agency Cost? What an Automation Sprint Includes",
     metaTitle: "AI Automation Agency Cost: What an Automation Sprint Includes | MorningstarrAI",
     description:
-      "MorningstarrAI's prices explained: the Automation Sprint (£6,525 online), the AI Outbound Engine, the Agency Operating System, the managed plan and the AI Content Engine.",
+      "MorningstarrAI's prices explained: the Automation Sprint (£9,135 online), the AI Outbound Engine, the Agency Operating System, the managed plan and the AI Content Engine.",
     answer:
-      "MorningstarrAI's Automation Sprint costs £6,525 when bought online: £4,500 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. Larger engagements start from £12,000 one-off or £2,500 per month, each plus the 45% service fee.",
+      "MorningstarrAI's Automation Sprint costs £9,135 when bought online: £6,300 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. Larger engagements start from £12,000 one-off or £2,500 per month, each plus the 45% service fee.",
     sections: [
       {
         h2: "What does the Automation Sprint include?",
@@ -416,7 +416,7 @@ export const GUIDES: Guide[] = [
       {
         h2: "How does buying the Sprint online work?",
         body: [
-          "1. Pay £6,525 on the checkout page. Payment comes first.",
+          "1. Pay £9,135 on the checkout page. Payment comes first.",
           "2. You get a call to walk through the process you want automated; after payment, Manthan emails you to book it.",
           "3. The automation goes live within 5 working days after that call.",
           "Buying from India? Request an invoice instead of paying by card or PayPal; the checkout page explains how.",
@@ -487,7 +487,7 @@ export const GUIDES: Guide[] = [
     faqs: [
       {
         q: "How much is the Automation Sprint?",
-        a: "£6,525 when bought online at playbook.asendify.co/sprint: £4,500 plus the 45% service fee.",
+        a: "£9,135 when bought online at playbook.asendify.co/sprint: £6,300 plus the 45% service fee.",
       },
       {
         q: "What happens after I pay?",
@@ -498,8 +498,8 @@ export const GUIDES: Guide[] = [
         a: "Yes. Buyers in India can request an invoice to pay by bank transfer instead of paying online.",
       },
       {
-        q: "Is the service fee included in the £6,525?",
-        a: "Yes. £6,525 is £4,500 plus the 45% service fee (£2,025).",
+        q: "Is the service fee included in the £9,135?",
+        a: "Yes. £9,135 is £6,300 plus the 45% service fee (£2,835).",
       },
       {
         q: "Do I own what is built?",
