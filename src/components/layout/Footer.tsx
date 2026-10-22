@@ -34,7 +34,7 @@ const FOOTER_LINKS = {
     { label: "AI Content Engine", href: "/content-engine" },
   ],
   Contact: [
-    { label: "Book a Consultation Call", href: "/?book=1" },
+    { label: "Join the Waitlist", href: "/?book=1" },
     { label: SITE.email, href: `mailto:${SITE.email}` },
     { label: "WhatsApp", href: `https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}` },
   ],

@@ -8,9 +8,10 @@ import { GradientMesh } from "@/components/effects/BackgroundEffects";
 import { CTAS } from "@/lib/constants";
 
 const POINTS = [
-  { title: "30 minutes", label: "We map where your team's hours go" },
-  { title: "One bottleneck", label: "We pick the system with the biggest payback" },
-  { title: "Clear scope", label: "You leave with a plan, timeline and price" },
+  // 2026-10-22: full client capacity, so the points describe the waitlist, not a call.
+  { title: "Free waitlist", label: "We email you, in order, when a slot opens" },
+  { title: "£500 deposit", label: "Refundable until we offer you a slot, credited to your first invoice" },
+  { title: "Clear scope", label: "Final pricing agreed in writing before any work starts" },
 ];
 
 export function FinalCTA() {

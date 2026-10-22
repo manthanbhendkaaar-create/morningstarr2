@@ -2,7 +2,7 @@
  * Home page content shared by the visible page and the JSON-LD (so the FAQPage markup matches the FAQ word for word).
  * Everything here is taken from what MorningstarrAI actually sells and builds (see constants.ts); no invented results.
  */
-export const LAST_UPDATED = { iso: "2026-10-20", label: "20 October 2026" } as const;
+export const LAST_UPDATED = { iso: "2026-10-22", label: "22 October 2026" } as const;
 
 export const FREE_TOOL_URL = "https://morningstarr.asendify.co/automation-roi-calculator/";
 
@@ -73,7 +73,6 @@ export const INCLUDED: { group: string; items: IncludedItem[] }[] = [
       { name: "Works with your tools", desc: "HubSpot, GoHighLevel, ClickUp, Asana, Notion, Slack, Google Workspace, Meta and Google Ads, GA4, Calendly and anything with an API" },
       { name: "Built with n8n, Make, Apps Script and custom code", desc: "whatever fits the job" },
       { name: "You own it", desc: "every workflow, account and login is set up in accounts you own" },
-      { name: "The 5-day promise", desc: "your first system goes live within 5 days of kickoff, or we keep building at no extra cost until it does" },
     ],
   },
 ];
@@ -102,12 +101,12 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "How much does it cost?",
     answer:
-      "An Automation Sprint is £6,300 + 45% service fee for one process automated end to end. A full Agency Operating System starts from £16,800 + 45% service fee, and our managed partnership from £3,500 per month + 45% service fee. Everything is agreed on the consultation call before any work starts.",
+      "An Automation Sprint is £6,300 + 45% service fee for one process automated end to end. A full Agency Operating System starts from £16,800 + 45% service fee, and our managed partnership from £3,500 per month + 45% service fee. Final pricing is agreed in writing before any work starts.",
   },
   {
     question: "How long does it take?",
     answer:
-      "Your first system goes live within 5 days of kickoff. If it isn't, we keep building at no extra cost until it is. Larger builds are delivered in stages so you see value early.",
+      "An Automation Sprint goes live within 5 working days after the process call. Larger builds are delivered in stages so you see value early. We are at full client capacity right now, so new builds start when a slot opens: join the waitlist (free) or reserve a slot with a £500 refundable deposit.",
   },
   {
     question: "Will this replace my team?",

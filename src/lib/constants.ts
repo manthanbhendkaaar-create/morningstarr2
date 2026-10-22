@@ -81,7 +81,7 @@ export const HERO_COPY = {
   headlineHighlight: "WITHOUT HIRING",
   subheadline:
     "Tell us the job your team still does by hand every day. We build an AI system that does it for them: replying to comments and DMs, chasing new leads, turning one piece of content into ten. Your team spends its hours on the work clients actually pay for.",
-  primaryCta: "Book a Consultation Call",
+  primaryCta: "Join the Waitlist", // 2026-10-22: full client capacity, the button opens the waitlist + £500 refundable deposit
   secondaryCta: "See Engagements",
   secondaryHref: "#engagements",
 } as const;
@@ -164,12 +164,11 @@ export const ENGAGEMENTS = [
   },
 ] as const;
 
-export const GUARANTEE =
-  "Your first system goes live within 5 days of kickoff, or we keep building at no extra cost until it does.";
-
 export const CTAS = {
-  bookAudit: "Book a Consultation Call",
-  bookAutomationAudit: "Book Your Consultation Call",
+  // 2026-10-22: at full client capacity every booking button opens the free waitlist + £500 refundable deposit (FULL_CAPACITY in lib/guides.ts),
+  // so the labels say that. Switch back to "Book a Consultation Call" when FULL_CAPACITY is turned off.
+  bookAudit: "Join the Waitlist",
+  bookAutomationAudit: "Join the Waitlist or Reserve a Slot",
   getAutomationPlan: "Get My Automation Plan",
   calculateLostRevenue: "Calculate Lost Revenue",
   seeOpportunityScore: "See My Opportunity Score",

@@ -8,7 +8,7 @@ import {
   StaggerItem,
   ScrollReveal,
 } from "@/components/ui/ScrollReveal";
-import { ENGAGEMENTS, GUARANTEE, CTAS } from "@/lib/constants";
+import { ENGAGEMENTS, CTAS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function Engagements() {
@@ -60,7 +60,7 @@ export function Engagements() {
           <div className="max-w-3xl mx-auto mt-10 glass-premium rounded-2xl p-5 flex items-start gap-3">
             <ShieldCheck className="w-6 h-6 text-accent-green shrink-0" />
             <p className="text-sm text-text-secondary">
-              <strong className="text-text-primary">The 5-day promise.</strong> {GUARANTEE}
+              <strong className="text-text-primary">Full client capacity right now.</strong> Join the free waitlist and we email you, in order, when a slot opens, or reserve a slot with a £500 refundable deposit (credited to your first invoice). Final pricing is agreed in writing before any work starts.
             </p>
           </div>
           <div className="text-center mt-8">
