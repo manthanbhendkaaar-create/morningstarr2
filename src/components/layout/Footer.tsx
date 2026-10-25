@@ -24,7 +24,7 @@ const FOOTER_LINKS = {
     { label: "How It Works", href: "/#how-it-works" },
     { label: "FAQ", href: "/#faq" },
     { label: "Guides", href: "/guides" },
-    { label: "Asendify Books (21 playbooks)", href: "https://www.asendify.co/books/?utm_source=morningstarr&utm_medium=footer", external: true },
+    { label: "Asendify Books (23 playbooks)", href: "https://www.asendify.co/books/?utm_source=morningstarr&utm_medium=footer", external: true },
   ],
   Services: [
     { label: "Comment & DM Replies", href: "/#gallery" },
@@ -111,7 +111,12 @@ export function Footer() {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      className="text-sm text-text-secondary hover:text-accent-blue transition-colors"
+                      className={
+                        // 2026-10-25: MorningstarrAI is full, so the footer link to the books (a current product) is a shining red button
+                        link.href.includes("asendify.co/books")
+                          ? "btn-red-shine inline-block rounded-full px-4 py-1.5 text-sm font-semibold"
+                          : "text-sm text-text-secondary hover:text-accent-blue transition-colors"
+                      }
                       {...("external" in link && link.external
                         ? { target: "_blank", rel: "noopener noreferrer" }
                         : link.href.includes("book=1") ? { rel: "nofollow" } : {})}
