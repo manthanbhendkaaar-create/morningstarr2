@@ -36,7 +36,11 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+              className={cn(
+                "text-sm text-text-secondary hover:text-text-primary transition-colors",
+                // 2026-10-25: MorningstarrAI is full, so the link to the books gets the shining red button style
+                link.label === "Books" && "btn-red-shine rounded-full px-4 py-1.5"
+              )}
             >
               {link.label}
             </a>
@@ -72,7 +76,10 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="text-text-secondary hover:text-text-primary transition-colors py-2"
+                  className={cn(
+                    "text-text-secondary hover:text-text-primary transition-colors py-2",
+                    link.label === "Books" && "btn-red-shine rounded-full px-4 self-start"
+                  )}
                 >
                   {link.label}
                 </a>
