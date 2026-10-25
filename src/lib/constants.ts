@@ -5,7 +5,7 @@ export const SITE = {
     "MorningstarrAI builds AI systems that take the manual work off marketing agencies: replying to comments and DMs, chasing new leads, turning one piece of content into ten, reporting and admin. Take on more clients without hiring more people.",
   url: "https://morningstarr.asendify.co",
   email: "manthanbhendkaaar@gmail.com",
-  whatsapp: "+91 75884 68884",
+  whatsapp: "+91 90960 82894",
   linkedin: "https://www.linkedin.com/in/manthan-bhendkar-93b452395/",
   location: "Dubai Downtown",
 } as const;
