@@ -114,7 +114,7 @@ export function Footer() {
                       className={
                         // 2026-10-25: MorningstarrAI is full, so the footer link to the books (a current product) is a shining red button
                         link.href.includes("asendify.co/books")
-                          ? "btn-red-shine inline-block rounded-full px-4 py-1.5 text-sm font-semibold"
+                          ? "btn-red-shine inline-block rounded-xl px-3.5 py-2 text-sm font-semibold leading-snug"
                           : "text-sm text-text-secondary hover:text-accent-blue transition-colors"
                       }
                       {...("external" in link && link.external
