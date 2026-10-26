@@ -40,7 +40,7 @@ export function SprintCheckout() {
                   className="inline-flex items-center justify-center gap-2 min-h-[58px] w-full md:w-auto px-8 py-4 text-lg rounded-2xl bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-extrabold shadow-[0_12px_30px_-10px_rgba(139,92,246,0.8)] hover:-translate-y-0.5 hover:brightness-110 active:scale-[0.985] transition"
                 >
                   <ShoppingCart className="w-4 h-4" />
-                  Sprint slots are full: reserve with a £500 refundable deposit
+                  Sprint slots are full: reserve with a £600 refundable deposit
                 </a>
               </div>
             </div>

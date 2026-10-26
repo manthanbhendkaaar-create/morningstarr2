@@ -127,7 +127,7 @@ export function SprintBuyBox() {
         className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm rounded-xl bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold"
       >
         <ShoppingCart className="w-4 h-4" />
-        Sprint slots are full: reserve with a £500 refundable deposit
+        Sprint slots are full: reserve with a £600 refundable deposit
       </a>
     </GlassCard>
   );

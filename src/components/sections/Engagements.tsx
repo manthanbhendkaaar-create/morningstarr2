@@ -20,7 +20,7 @@ export function Engagements() {
           <SectionHeading
             eyebrow="Engagements"
             title="How We Work Together"
-            subtitle="We are at full client capacity right now: join the waitlist (free) or reserve a slot with a £500 refundable deposit. Fixed scope, fixed timeline, senior builds; final pricing is agreed in writing before any work starts."
+            subtitle="We are at full client capacity right now: join the waitlist (free) or reserve a slot with a £600 refundable deposit. Fixed scope, fixed timeline, senior builds; final pricing is agreed in writing before any work starts."
           />
         </ScrollReveal>
 
@@ -60,7 +60,7 @@ export function Engagements() {
           <div className="max-w-3xl mx-auto mt-10 glass-premium rounded-2xl p-5 flex items-start gap-3">
             <ShieldCheck className="w-6 h-6 text-accent-green shrink-0" />
             <p className="text-sm text-text-secondary">
-              <strong className="text-text-primary">Full client capacity right now.</strong> Join the free waitlist and we email you, in order, when a slot opens, or reserve a slot with a £500 refundable deposit (credited to your first invoice). Final pricing is agreed in writing before any work starts.
+              <strong className="text-text-primary">Full client capacity right now.</strong> Join the free waitlist and we email you, in order, when a slot opens, or reserve a slot with a £600 refundable deposit (credited to your first invoice). Final pricing is agreed in writing before any work starts.
             </p>
           </div>
           <div className="text-center mt-8">

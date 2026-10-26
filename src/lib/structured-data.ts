@@ -63,7 +63,7 @@ export const HOME_JSON_LD = {
         priceCurrency: "GBP",
         url: SPRINT_CHECKOUT_URL,
         availability: "https://schema.org/LimitedAvailability",
-        description: "£6,300 plus the 45% service fee (£2,835). Sprint slots are full right now: reserve one with a £500 refundable deposit.",
+        description: "£6,300 plus the 45% service fee (£2,835). Sprint slots are full right now: reserve one with a £600 refundable deposit.",
         seller: { "@id": ORG_ID },
       },
     },
