@@ -258,7 +258,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
         <p style={{ fontSize: "11px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#7c3aed", fontWeight: 700, margin: "0 0 8px" }}>Full capacity</p>
         <h2 style={{ fontSize: "24px", fontWeight: 700, margin: "0 0 8px" }}>We&apos;re not taking new clients right now.</h2>
         <p style={{ color: "#4b5563", margin: "0 0 18px", lineHeight: 1.55 }}>
-          Every build slot is taken. Join the waitlist and we&apos;ll email you, in order, when a slot opens. To be offered a slot first, you can reserve with a <b style={{ color: "#111827" }}>£500 refundable deposit</b>: refunded in full any time until we offer you a slot, and credited to your first invoice when you join.
+          Every build slot is taken. Join the waitlist and we&apos;ll email you, in order, when a slot opens. To be offered a slot first, you can reserve with a <b style={{ color: "#111827" }}>£600 refundable deposit</b>: refunded in full any time until we offer you a slot, and credited to your first invoice when you join.
         </p>
         {step === "fullsent" ? (
           <p style={{ color: "#166534", fontWeight: 600, margin: "0 0 14px" }}>You&apos;re on the list. We&apos;ll email {wl.email} when a slot opens.</p>
@@ -270,7 +270,7 @@ export function CalendlyBookingProvider({ children }: { children: ReactNode }) {
             <button type="submit" disabled={wlBusy} style={{ ...secondary, opacity: wlBusy ? 0.7 : 1 }}>{wlBusy ? "Joining…" : "Join the free waitlist"}</button>
           </form>
         )}
-        <a href={WAITLIST_DEPOSIT_URL} style={{ ...primary, display: "block", textAlign: "center", textDecoration: "none" }}>Reserve a slot with a £500 refundable deposit →</a>
+        <a href={WAITLIST_DEPOSIT_URL} style={{ ...primary, display: "block", textAlign: "center", textDecoration: "none" }}>Reserve a slot with a £600 refundable deposit →</a>
         <p style={{ color: "#6b7280", fontSize: "13px", margin: "12px 0 0", lineHeight: 1.5 }}>Nothing beyond the deposit is ever charged until you agree an amount in writing. Questions: manthanbhendkaaar@gmail.com</p>
       </div>
     ) : step === "calendar" ? (

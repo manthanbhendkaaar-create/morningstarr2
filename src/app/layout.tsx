@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MorningstarrAI | Take On More Clients Without Hiring",
     description:
-      "AI systems that take the manual work off marketing agencies: comment and DM replies, lead follow-up, content repurposing and admin. At full client capacity: join the free waitlist or reserve a slot with a £500 refundable deposit.",
+      "AI systems that take the manual work off marketing agencies: comment and DM replies, lead follow-up, content repurposing and admin. At full client capacity: join the free waitlist or reserve a slot with a £600 refundable deposit.",
     type: "website",
     locale: "en_US",
     siteName: SITE.name,

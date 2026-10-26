@@ -10,7 +10,7 @@ import { CTAS } from "@/lib/constants";
 const POINTS = [
   // 2026-10-22: full client capacity, so the points describe the waitlist, not a call.
   { title: "Free waitlist", label: "We email you, in order, when a slot opens" },
-  { title: "£500 deposit", label: "Refundable until we offer you a slot, credited to your first invoice" },
+  { title: "£600 deposit", label: "Refundable until we offer you a slot, credited to your first invoice" },
   { title: "Clear scope", label: "Final pricing agreed in writing before any work starts" },
 ];
 

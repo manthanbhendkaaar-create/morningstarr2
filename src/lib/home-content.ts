@@ -106,7 +106,7 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "How long does it take?",
     answer:
-      "An Automation Sprint goes live within 5 working days after the process call. Larger builds are delivered in stages so you see value early. We are at full client capacity right now, so new builds start when a slot opens: join the waitlist (free) or reserve a slot with a £500 refundable deposit.",
+      "An Automation Sprint goes live within 5 working days after the process call. Larger builds are delivered in stages so you see value early. We are at full client capacity right now, so new builds start when a slot opens: join the waitlist (free) or reserve a slot with a £600 refundable deposit.",
   },
   {
     question: "Will this replace my team?",
@@ -131,7 +131,7 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "Can I buy an Automation Sprint online?",
     answer:
-      "Yes. It is £9,135 (£6,300 + 45% service fee): you pay online first, then have a call where you walk us through the process, and it goes live within 5 working days after that call. Sprint slots are full right now, so you can reserve one with a £500 refundable deposit.",
+      "Yes. It is £9,135 (£6,300 + 45% service fee): you pay online first, then have a call where you walk us through the process, and it goes live within 5 working days after that call. Sprint slots are full right now, so you can reserve one with a £600 refundable deposit.",
   },
   {
     question: "What happens after a system goes live?",
@@ -141,7 +141,7 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "Can you start right away?",
     answer:
-      "We are at full client capacity right now. Join the waitlist (free) or reserve a slot with a £500 refundable deposit.",
+      "We are at full client capacity right now. Join the waitlist (free) or reserve a slot with a £600 refundable deposit.",
   },
   {
     question: "Is there a free tool to see what automation could save?",
