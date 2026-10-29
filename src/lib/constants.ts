@@ -109,7 +109,7 @@ export const TRUST_CATEGORIES = [
 export const ENGAGEMENTS = [
   {
     name: "Automation Sprint",
-    price: "£6,300",
+    price: "£7,560",
     cadence: "fixed price",
     summary: "One production system, scoped around your biggest bottleneck.",
     points: [

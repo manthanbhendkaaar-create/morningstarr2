@@ -101,7 +101,7 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "How much does it cost?",
     answer:
-      "An Automation Sprint is £6,300 + 45% service fee for one process automated end to end. A full Agency Operating System starts from £16,800 + 45% service fee, and our managed partnership from £3,500 per month + 45% service fee. Final pricing is agreed in writing before any work starts.",
+      "An Automation Sprint is £7,560 + 45% service fee (£10,962 in total) for one process automated end to end. A full Agency Operating System starts from £16,800 + 45% service fee, and our managed partnership from £3,500 per month + 45% service fee. Final pricing is agreed in writing before any work starts.",
   },
   {
     question: "How long does it take?",
@@ -131,7 +131,7 @@ export const FAQS: { question: string; answer: string }[] = [
   {
     question: "Can I buy an Automation Sprint online?",
     answer:
-      "Yes. It is £9,135 (£6,300 + 45% service fee): you pay online first, then have a call where you walk us through the process, and it goes live within 5 working days after that call. Sprint slots are full right now, so you can reserve one with a £600 refundable deposit.",
+      "Not right now. We are at full client capacity, so the Automation Sprint (£10,962: £7,560 + 45% service fee) is waitlist only. Join the free waitlist, or reserve a slot with a £600 refundable deposit (credited to your first invoice). When a slot opens, you have a call to walk us through the process, and it goes live within 5 working days after that call.",
   },
   {
     question: "What happens after a system goes live?",

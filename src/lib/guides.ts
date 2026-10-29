@@ -8,7 +8,8 @@
 export const GUIDES_UPDATED = "2026-10-12";
 
 export const SPRINT_CHECKOUT_URL = "https://playbook.asendify.co/sprint";
-// 2026-10-13: MorningstarrAI is at full client capacity; every CTA goes to the refundable GBP 500 waitlist deposit.
+// 2026-10-13: MorningstarrAI is at full client capacity; every CTA goes to the free waitlist or the refundable GBP 600 waitlist deposit.
+// 2026-10-29: the Sprint (GBP 10,962 = 7,560 + 45% fee) is waitlist only; SPRINT_CHECKOUT_URL is not linked anywhere while FULL_CAPACITY is true.
 export const WAITLIST_DEPOSIT_URL = "https://playbook.asendify.co/msdeposit?utm_source=morningstarr";
 export const FULL_CAPACITY = true;
 
@@ -92,7 +93,7 @@ export const GUIDES: Guide[] = [
         h2: "How should an agency get started?",
         body: [
           "Start with one process, not a transformation programme. Choose the job that costs the most hours per week, happens on a fixed trigger and has a clear finished state. Lead follow-up, monthly reporting and comment replies usually qualify.",
-          "If you already know the process, the [Automation Sprint](/guides/ai-automation-agency-cost) can be bought online for £9,135 (£6,300 plus the 45% service fee). Payment comes first, then a call where you walk through the process, and the automation goes live within 5 working days after that call. If you are not sure which process to pick, book a consultation call and decide together.",
+          "If you already know the process, the [Automation Sprint](/guides/ai-automation-agency-cost) is built for that: £10,962 (£7,560 plus the 45% service fee) for one process, live within 5 working days after the process call. MorningstarrAI is at full client capacity, so the Sprint is waitlist only right now: join the free waitlist, or reserve a slot with a £600 refundable deposit. If you are not sure which process to pick, that is what the process call is for.",
         ],
       },
     ],
@@ -395,9 +396,9 @@ export const GUIDES: Guide[] = [
     title: "How Much Does an AI Automation Agency Cost? What an Automation Sprint Includes",
     metaTitle: "AI Automation Agency Cost: What an Automation Sprint Includes | MorningstarrAI",
     description:
-      "MorningstarrAI's prices explained: the Automation Sprint (£9,135 online), the AI Outbound Engine, the Agency Operating System, the managed plan and the AI Content Engine.",
+      "MorningstarrAI's prices explained: the Automation Sprint (£10,962, waitlist only), the AI Outbound Engine, the Agency Operating System, the managed plan and the AI Content Engine.",
     answer:
-      "MorningstarrAI's Automation Sprint costs £9,135 when bought online: £6,300 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. Larger engagements start from £12,000 one-off or £2,500 per month, each plus the 45% service fee.",
+      "MorningstarrAI's Automation Sprint costs £10,962: £7,560 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. MorningstarrAI is at full client capacity, so the Sprint is waitlist only: join the free waitlist, or reserve a slot with a £600 refundable deposit. Larger engagements start from £12,000 one-off or £2,500 per month, each plus the 45% service fee.",
     sections: [
       {
         h2: "What does the Automation Sprint include?",
@@ -414,12 +415,12 @@ export const GUIDES: Guide[] = [
         ],
       },
       {
-        h2: "How does buying the Sprint online work?",
+        h2: "How do I get an Automation Sprint?",
         body: [
-          "1. Pay £9,135 on the checkout page. Payment comes first.",
-          "2. You get a call to walk through the process you want automated; after payment, Manthan emails you to book it.",
-          "3. The automation goes live within 5 working days after that call.",
-          "Buying from India? Request an invoice instead of paying by card or PayPal; the checkout page explains how.",
+          "MorningstarrAI is at full client capacity, so the Sprint is not sold online right now. It works like this:",
+          "1. Join the free waitlist, or reserve a slot with a £600 refundable deposit. The deposit is refunded in full any time until we offer you a slot, and credited to your first invoice.",
+          "2. When a slot opens, Manthan emails you, in waitlist order (deposit holders are offered a slot first).",
+          "3. You have a call to walk through the process you want automated, and the automation goes live within 5 working days after that call.",
         ],
       },
       {
@@ -468,7 +469,7 @@ export const GUIDES: Guide[] = [
         body: [
           {
             list: [
-              "You know the one job that eats your team's week: the Automation Sprint, bought online.",
+              "You know the one job that eats your team's week: the Automation Sprint (waitlist only right now).",
               "You want more booked calls from cold email: the AI Outbound Engine.",
               "Several teams lose hours to manual work across sales, delivery and reporting: the Agency Operating System.",
               "You already have systems and want someone to run, fix and extend them: the Managed Automation Partner.",
@@ -487,19 +488,19 @@ export const GUIDES: Guide[] = [
     faqs: [
       {
         q: "How much is the Automation Sprint?",
-        a: "£9,135 when bought online at playbook.asendify.co/sprint: £6,300 plus the 45% service fee.",
+        a: "£10,962: £7,560 plus the 45% service fee. It is waitlist only right now: join the free waitlist, or reserve a slot with a £600 refundable deposit.",
       },
       {
-        q: "What happens after I pay?",
-        a: "You get a call to walk through the process you want automated, and the automation goes live within 5 working days after that call.",
+        q: "What happens after I join the waitlist?",
+        a: "Manthan emails you, in order, when a slot opens (deposit holders are offered a slot first). You then have a call to walk through the process you want automated, and the automation goes live within 5 working days after that call.",
       },
       {
         q: "Can I pay from India?",
-        a: "Yes. Buyers in India can request an invoice to pay by bank transfer instead of paying online.",
+        a: "Yes. When you are offered a slot, buyers in India can request an invoice and pay by bank transfer.",
       },
       {
-        q: "Is the service fee included in the £9,135?",
-        a: "Yes. £9,135 is £6,300 plus the 45% service fee (£2,835).",
+        q: "Is the service fee included in the £10,962?",
+        a: "Yes. £10,962 is £7,560 plus the 45% service fee (£3,402).",
       },
       {
         q: "Do I own what is built?",

@@ -1,5 +1,4 @@
 import { SITE, FOUNDER, CONTENT_ENGINE } from "@/lib/constants";
-import { SPRINT_CHECKOUT_URL } from "@/lib/guides";
 import { FAQS, INCLUDED_FLAT, LAST_UPDATED } from "@/lib/home-content";
 
 const ORG_ID = `${SITE.url}/#organization`;
@@ -55,15 +54,15 @@ export const HOME_JSON_LD = {
       provider: { "@id": ORG_ID },
       audience: { "@type": "BusinessAudience", audienceType: "Marketing agencies and businesses" },
       description:
-        "One process automated end to end: workflow audit and system design, one process automated, tested and live within 5 working days after the process call, handover docs and a recorded walkthrough, 30 days of fixes. Bought online: payment first, then a call to describe the process. Buyers in India can request an invoice.",
+        "One process automated end to end: workflow audit and system design, one process automated, tested and live within 5 working days after the process call, handover docs and a recorded walkthrough, 30 days of fixes. Waitlist only while MorningstarrAI is at full client capacity: join the free waitlist or reserve a slot with a £600 refundable deposit; when a slot opens, a call to describe the process.",
       offers: {
         "@type": "Offer",
-        name: "Automation Sprint (online checkout)",
-        price: "9135",
+        name: "Automation Sprint (waitlist only)",
+        price: "10962",
         priceCurrency: "GBP",
-        url: SPRINT_CHECKOUT_URL,
-        availability: "https://schema.org/LimitedAvailability",
-        description: "£6,300 plus the 45% service fee (£2,835). Sprint slots are full right now: reserve one with a £600 refundable deposit.",
+        url: `${SITE.url}/#buy-sprint`,
+        availability: "https://schema.org/OutOfStock",
+        description: "£7,560 plus the 45% service fee (£3,402). Waitlist only: MorningstarrAI is at full client capacity. Join the free waitlist or reserve a slot with a £600 refundable deposit.",
         seller: { "@id": ORG_ID },
       },
     },

@@ -112,23 +112,30 @@ export function JsonLd({ data }: { data: object }) {
   );
 }
 
-/** Buy-online block for the Automation Sprint. Kept separate from any booking section. */
+/** Automation Sprint price block. 2026-10-29: full client capacity, so waitlist only (free waitlist or £600 refundable deposit). */
 export function SprintBuyBox() {
   return (
     <GlassCard glow="purple" hover={false} className="border border-accent-purple/40">
-      <p className="text-[10px] font-semibold tracking-widest uppercase text-accent-purple mb-3">Buy online</p>
+      <p className="text-[10px] font-semibold tracking-widest uppercase text-accent-purple mb-3">Waitlist only</p>
       <h2 className="text-2xl font-bold mb-2">Automation Sprint: one process, automated</h2>
       <p className="text-sm text-text-secondary mb-4">
-        £9,135 (£6,300 + 45% service fee). Pay first, then a call where you walk us
-        through the process. It goes live within 5 working days after that call. Buying from India? Request an invoice.
+        £10,962 (£7,560 + 45% service fee). One process automated end to end, live within 5 working days after
+        the process call. We are at full client capacity, so the Sprint is not sold online right now: join the free
+        waitlist, or reserve a slot with a £600 refundable deposit (refunded in full until we offer you a slot,
+        credited to your first invoice).
       </p>
       <a
         href={WAITLIST_DEPOSIT_URL}
         className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm rounded-xl bg-gradient-to-r from-accent-blue to-accent-purple text-bg-primary font-semibold"
       >
         <ShoppingCart className="w-4 h-4" />
-        Sprint slots are full: reserve with a £600 refundable deposit
+        Reserve a slot: £600 refundable deposit
       </a>
+      <div className="mt-3">
+        <BookingButton variant="secondary" size="sm">
+          Join the free waitlist
+        </BookingButton>
+      </div>
     </GlassCard>
   );
 }
