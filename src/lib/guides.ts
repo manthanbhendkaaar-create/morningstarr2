@@ -252,7 +252,7 @@ export const GUIDES: Guide[] = [
       {
         h2: "What does MorningstarrAI build here?",
         body: [
-          "Two options. A Lead-to-Call system for inbound leads, which fits an [Automation Sprint](/guides/ai-automation-agency-cost) for one lead flow. Or the AI Outbound Engine (£4,500 fixed price, plus the 45% service fee), the cold-email system MorningstarrAI runs every day, set up on your inboxes: daily lead finding, a personal first line for every lead, 2 follow-ups, AI answers that qualify leads and send your booking link, deliverability setup and a daily report, live in 5 days.",
+          "Two options. A Lead-to-Call system for inbound leads, which fits an [Automation Sprint](/guides/ai-automation-agency-cost) for one lead flow. Or the AI Outbound Engine (£6,300 fixed price, plus the 45% service fee), the cold-email system MorningstarrAI runs every day, set up on your inboxes: daily lead finding, a personal first line for every lead, 2 follow-ups, AI answers that qualify leads and send your booking link, deliverability setup and a daily report, live in 5 days.",
         ],
       },
     ],
@@ -429,9 +429,9 @@ export const GUIDES: Guide[] = [
           "All MorningstarrAI fees have a 45% service fee added on top, invoiced together with the fee.",
           {
             list: [
-              "AI Outbound Engine: £4,500 fixed price. The cold-email system MorningstarrAI runs daily, set up on your inboxes, live in 5 days.",
-              "Agency Operating System: from £12,000 one-off. 3 to 5 connected systems across the agency, team training, one operations dashboard and 60 days of fixes.",
-              "Managed Automation Partner: from £2,500 per month. Weekly monitoring and fixes, new builds every month, priority WhatsApp support and a monthly review.",
+              "AI Outbound Engine: £6,300 fixed price. The cold-email system MorningstarrAI runs daily, set up on your inboxes, live in 5 days.",
+              "Agency Operating System: from £16,800 one-off. 3 to 5 connected systems across the agency, team training, one operations dashboard and 60 days of fixes.",
+              "Managed Automation Partner: from £3,500 per month. Weekly monitoring and fixes, new builds every month, priority WhatsApp support and a monthly review.",
               "AI Content Engine: £3,000 per month plus a £1,500 one-time setup, 3-month minimum, limited to 3 clients.",
             ],
           },
