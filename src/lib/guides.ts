@@ -398,7 +398,7 @@ export const GUIDES: Guide[] = [
     description:
       "MorningstarrAI's prices explained: the Automation Sprint (£10,962, waitlist only), the AI Outbound Engine, the Agency Operating System, the managed plan and the AI Content Engine.",
     answer:
-      "MorningstarrAI's Automation Sprint costs £10,962: £7,560 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. MorningstarrAI is at full client capacity, so the Sprint is waitlist only: join the free waitlist, or reserve a slot with a £600 refundable deposit. Larger engagements start from £12,000 one-off or £2,500 per month, each plus the 45% service fee.",
+      "MorningstarrAI's Automation Sprint costs £10,962: £7,560 plus the 45% service fee. It covers one process automated end to end, live within 5 working days after the process call. MorningstarrAI is at full client capacity, so the Sprint is waitlist only: join the free waitlist, or reserve a slot with a £600 refundable deposit. Larger engagements start from £16,800 one-off or £3,500 per month, each plus the 45% service fee.",
     sections: [
       {
         h2: "What does the Automation Sprint include?",
